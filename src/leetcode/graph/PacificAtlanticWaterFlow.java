@@ -36,15 +36,30 @@ public class PacificAtlanticWaterFlow {
         return result;
     }
 
-    private void dfs(int[][] heights, boolean[][] ocean, int height, int x, int y) {
-        int n = heights.length;
-        int m = heights[0].length;
-        if (x < 0 || x >= n || y < 0 || y >= m || ocean[x][y] || heights[x][y] < height) {
+    private void dfs(int[][] heights, boolean[][] ocean, int height, int i, int j) {
+        int row = ocean.length;
+        int col = ocean[0].length;
+        if (i < 0 || i >= row || j < 0 || j >= col) {
             return;
         }
-        ocean[x][y] = true;
-        for (int[] dir : dirs) {
-            dfs(heights, ocean, heights[x][y], x + dir[0], dir[1]);
+        if(heights[i][j] < height || ocean[i][j]){
+            return;
         }
+        ocean[i][j] = true;
+        for (int[] dir : dirs) {
+            dfs(heights, ocean, heights[i][j], i + dir[0], j+dir[1]);
+        }
+    }
+
+    public static void main(String[] args) {
+        PacificAtlanticWaterFlow pacificAtlanticWaterFlow = new PacificAtlanticWaterFlow();
+        int[][] heights = new int[][]{
+                {1,2,2,3,5},
+                {3,2,3,4,4},
+                {2,4,5,3,1},
+                {6,7,1,4,5},
+                {5,1,1,2,4}
+        };
+        System.out.println(pacificAtlanticWaterFlow.pacificAtlantic(heights));
     }
 }
