@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class ListNode {
     int val;
-    ListNode next;
+    public ListNode next;
 
     ListNode() {
         Random random = new Random();

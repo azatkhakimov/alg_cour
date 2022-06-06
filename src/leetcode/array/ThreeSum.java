@@ -39,6 +39,6 @@ public class ThreeSum {
 
     public static void main(String[] args) {
         ThreeSum threeSum = new ThreeSum();
-        System.out.println(threeSum.threeSum(new int[]{-1,0,1,2,-1,-4}));
+        System.out.println(threeSum.threeSum(new int[]{-1,0,1,2,-1,-4}));//[[-1, -1, 2], [-1, 0, 1]]
     }
 }
