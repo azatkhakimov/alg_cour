@@ -37,5 +37,6 @@ public class LongestPalindromicSubstring {
     public static void main(String[] args) {
         LongestPalindromicSubstring longestPalindromicSubstring = new LongestPalindromicSubstring();
         System.out.println(longestPalindromicSubstring.longestPalindrome("babad"));
+        System.out.println(longestPalindromicSubstring.longestPalindrome("abba"));
     }
 }
