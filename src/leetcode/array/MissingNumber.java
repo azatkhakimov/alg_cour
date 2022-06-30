@@ -4,16 +4,13 @@ import java.util.Arrays;
 
 public class MissingNumber {
     public int missingNumber(int[] nums) {
-        if(nums.length == 2){
-            return 2;
-        }
-        Arrays.sort(nums);
-        for (int i = 0; i < nums.length; i++) {
-            if(nums[i] != i){
-                return i;
-            }
-        }
-        return -1;
+       int sum = 0;
+       for(int num : nums){
+           sum += num;
+       }
+
+       int n = nums.length+1;
+       return (n*(n-1)/2)-sum;
     }
     public static void main(String[] args) {
         MissingNumber missingNumber = new MissingNumber();
