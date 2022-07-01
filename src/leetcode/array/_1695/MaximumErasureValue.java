@@ -1,6 +1,5 @@
 package leetcode.array._1695;
 
-import edu.princeton.cs.algs4.SET;
 
 import java.util.HashSet;
 import java.util.Set;

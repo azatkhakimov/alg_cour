@@ -1,7 +1,5 @@
 package leetcode.tree._103;
 
-import edu.princeton.cs.algs4.In;
-import leetcode.recursive.ListNode;
 import leetcode.tree.TreeNode;
 
 import java.util.ArrayList;
