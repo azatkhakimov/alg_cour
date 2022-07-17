@@ -37,29 +37,7 @@ public class BinaryTreeLevelOrderTraversal {
         }
         return result;
     }
-    List<List<Integer>> result = new ArrayList<>();
-        if(root == null){
-        return result;
-    }
-    Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
-        while(!queue.isEmpty()){
-        int size = queue.size();
-        List<Integer> currentLevel = new ArrayList<>();
-        for(int i = 0; i < size; i++){
-            TreeNode current = queue.remove();
-            currentLevel.add(current.val);
-            if(root.left != null){
-                queue.add(root.left);
-            }
-            if(root.right != null){
-                queue.add(root.right);
-            }
-        }
-        result.add(currentLevel);
 
-    }
-        return result;
     public static void main(String[] args) {
         BinaryTreeLevelOrderTraversal binaryTreeLevelOrderTraversal = new BinaryTreeLevelOrderTraversal();
         TreeNode treeNode = binaryTreeLevelOrderTraversal.treeNode();
