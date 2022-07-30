@@ -1,4 +1,4 @@
-package leetcode.string;
+package leetcode.string._242;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -22,6 +22,12 @@ public class ValidAnagram {
             }
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+        ValidAnagram validAnagram = new ValidAnagram();
+        System.out.println(validAnagram.isAnagram("anagram", "nagaram"));//Output: true
+        System.out.println(validAnagram.isAnagram("rat", "car"));//Output: false
     }
 
 }
