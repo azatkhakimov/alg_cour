@@ -1,4 +1,4 @@
-package leetcode.array.hashtable;
+package leetcode.array._128;
 
 import java.util.HashSet;
 import java.util.Set;
