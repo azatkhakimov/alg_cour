@@ -10,6 +10,8 @@
 [307. Range Sum Query - Mutable](src/leetcode/design/_307/RangeSumQueryMutable.java)\
 [378. Kth Smallest Element in a Sorted Matrix](src/leetcode/array/_378/KthSmallestElementInASortedMatrix.java)\
 [442. Find All Duplicates in an Array](src/leetcode/array/_442/FindAllDuplicatesInAnArray.java)\
+[729. My Calendar I](src/leetcode/design/_729/MyCalendarI.java)\
+[784. Letter Case Permutation](src/leetcode/string/_784/LetterCasePermutation.java)\
 [890. Find and Replace Pattern](src/leetcode/array/_890/FindAndReplacePattern.java)\
 [916. Word Subsets](src/leetcode/array/_916/WordSubsets.java)\
 [TODO]
