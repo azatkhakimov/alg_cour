@@ -8,7 +8,7 @@ public class Subsets {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> answers = new ArrayList<>();
         Arrays.sort(nums);
-        backtrack(answers, new ArrayList<Integer>(), nums, 0);
+        backtrack(answers, new ArrayList<>(), nums, 0);
         return answers;
     }
 
@@ -23,7 +23,7 @@ public class Subsets {
 
     public static void main(String[] args) {
         Subsets subsets = new Subsets();
-        System.out.println(subsets.subsets(new int[]{1,2,3}));
+        System.out.println(subsets.subsets(new int[]{1,2,3}));//Output: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
     }
 
 }
