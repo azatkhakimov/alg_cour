@@ -1,4 +1,4 @@
-package leetcode.dp;
+package leetcode._300;
 
 import java.util.Arrays;
 
