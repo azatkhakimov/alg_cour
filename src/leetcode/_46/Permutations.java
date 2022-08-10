@@ -1,4 +1,4 @@
-package leetcode.backtracking._46;
+package leetcode._46;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +27,8 @@ public class Permutations {
 
     public static void main(String[] args) {
         Permutations permutations = new Permutations();
-        System.out.println(permutations.permute(new int[]{1,2,3}));
+        System.out.println(permutations.permute(new int[]{1,2,3}));//Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+        System.out.println(permutations.permute(new int[]{0,1}));//Output: [[0,1],[1,0]]
+        System.out.println(permutations.permute(new int[]{1}));//Output: [[1]]
     }
 }
