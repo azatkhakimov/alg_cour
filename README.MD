@@ -1,5 +1,6 @@
 # Leetcode
 
+[30. Substring with Concatenation of All Words]()\
 [46. Permutations](src/leetcode/_46/Permutations.java)\
 [54. Spiral Matrix](src/leetcode/array/matrix/_54/SpiralMatrix.java)\
 [62. Unique Paths](src/leetcode/dp/UniquePaths.java)\
