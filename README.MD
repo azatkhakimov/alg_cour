@@ -6,6 +6,7 @@
 [70. Climbing Stairs](src/leetcode/recursive/memorization/ClimbingStairs.java)\
 [73. Set Matrix Zeroes](src/leetcode/array/matrix/SetMatrixZeroes.java)\
 [78. Subsets](src/leetcode/backtracking/_78/Subsets.java)\
+[98. Validate Binary Search Tree](src/leetcode/_98/ValidateBinarySearchTree.java)\
 [108. Convert Sorted Array to Binary Search Tree](src/leetcode/_108/ConvertSortedArrayToBinarySearchTree.java)\
 [114. Flatten Binary Tree to Linked List](src/leetcode/tree/_114/FlattenBinaryTreeToLinkedList.java)\
 [128. Longest Consecutive Sequence](src/leetcode/array/_128/LongestConsecutiveSequence.java)\
