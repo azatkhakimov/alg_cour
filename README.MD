@@ -22,6 +22,7 @@
 [377. Combination Sum IV](src/leetcode/_377/CombinationSumIV.java)\
 [378. Kth Smallest Element in a Sorted Matrix](src/leetcode/array/_378/KthSmallestElementInASortedMatrix.java)\
 [442. Find All Duplicates in an Array](src/leetcode/array/_442/FindAllDuplicatesInAnArray.java)\
+[659. Split Array into Consecutive Subsequences](src/leetcode/_659/SplitArrayIntoConsecutiveSubsequences.java)\
 [729. My Calendar I](src/leetcode/design/_729/MyCalendarI.java)\
 [784. Letter Case Permutation](src/leetcode/string/_784/LetterCasePermutation.java)\
 [804. Unique Morse Code Words](src/leetcode/_804/UniqueMorseCodeWords.java)\
