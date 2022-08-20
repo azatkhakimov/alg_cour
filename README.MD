@@ -28,6 +28,7 @@
 [804. Unique Morse Code Words](src/leetcode/_804/UniqueMorseCodeWords.java)\
 [823. Binary Trees With Factors](src/leetcode/_823/BinaryTreesWithFactors.java)\
 [858. Mirror Reflection](src/leetcode/math/_858/MirrorReflection.java)\
+[871. Minimum Number of Refueling Stops](src/leetcode/_871/MinimumNumberOfRefuelingStops.java)\
 [890. Find and Replace Pattern](src/leetcode/array/_890/FindAndReplacePattern.java)\
 [916. Word Subsets](src/leetcode/array/_916/WordSubsets.java)\
 [1338. Reduce Array Size to The Half](src/leetcode/_1338/ReduceArraySizeToTheHalf.java)\
