@@ -19,6 +19,7 @@
 [242. Valid Anagram](src/leetcode/string/_242/ValidAnagram.java)\
 [300. Longest Increasing Subsequence](src/leetcode/_300/LongestIncreasingSubsequence.java)\
 [307. Range Sum Query - Mutable](src/leetcode/design/_307/RangeSumQueryMutable.java)\
+[342. Power of Four](src/leetcode/_342/PowerOfFour.java)\
 [377. Combination Sum IV](src/leetcode/_377/CombinationSumIV.java)\
 [378. Kth Smallest Element in a Sorted Matrix](src/leetcode/array/_378/KthSmallestElementInASortedMatrix.java)\
 [442. Find All Duplicates in an Array](src/leetcode/array/_442/FindAllDuplicatesInAnArray.java)\
@@ -27,6 +28,7 @@
 [784. Letter Case Permutation](src/leetcode/string/_784/LetterCasePermutation.java)\
 [804. Unique Morse Code Words](src/leetcode/_804/UniqueMorseCodeWords.java)\
 [823. Binary Trees With Factors](src/leetcode/_823/BinaryTreesWithFactors.java)\
+[844. Backspace String Compare](src/leetcode/_844/BackspaceStringCompare.java)
 [858. Mirror Reflection](src/leetcode/math/_858/MirrorReflection.java)\
 [871. Minimum Number of Refueling Stops](src/leetcode/_871/MinimumNumberOfRefuelingStops.java)\
 [890. Find and Replace Pattern](src/leetcode/array/_890/FindAndReplacePattern.java)\

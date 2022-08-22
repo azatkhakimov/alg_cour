@@ -1,4 +1,4 @@
-package leetcode.string._844;
+package leetcode._844;
 
 public class BackspaceStringCompare {
     public boolean backspaceCompare(String s, String t) {
