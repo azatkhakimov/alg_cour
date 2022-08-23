@@ -1,4 +1,4 @@
-package leetcode.linkedlist;
+package leetcode._234;
 
 import java.util.List;
 
@@ -30,17 +30,17 @@ public class PalindromeLinkedList {
     public ListNode initTwo(){
         return new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, null))));
     }
+
     public boolean isPalindrome(ListNode head){
-        System.out.println("Before head: "+head);
         if(head == null){
             return true;
         }
         //Find the end of first half and reverse second half
         ListNode firstHalfEnd = endOfFirstHalf(head);
-        System.out.println("firstHalfEnd: "+firstHalfEnd);
         ListNode secondHalfStart = reverseList(firstHalfEnd.next);
-        System.out.println("secondHalfStart: "+secondHalfStart);
+
         boolean result = true;
+
         ListNode p1 = head;
         ListNode p2 = secondHalfStart;
         while (result && p2 != null){
@@ -53,7 +53,6 @@ public class PalindromeLinkedList {
         }
         //Restore the list and return result;
         firstHalfEnd.next = reverseList(secondHalfStart);
-        System.out.println("firstHalfEnd.next:" +firstHalfEnd);
         return result;
 
     }
