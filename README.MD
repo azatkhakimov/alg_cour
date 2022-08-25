@@ -24,6 +24,7 @@
 [342. Power of Four](src/leetcode/_342/PowerOfFour.java)\
 [377. Combination Sum IV](src/leetcode/_377/CombinationSumIV.java)\
 [378. Kth Smallest Element in a Sorted Matrix](src/leetcode/array/_378/KthSmallestElementInASortedMatrix.java)\
+[383. Ransom Note](src/leetcode/_383/RansomNote.java)\
 [442. Find All Duplicates in an Array](src/leetcode/array/_442/FindAllDuplicatesInAnArray.java)\
 [659. Split Array into Consecutive Subsequences](src/leetcode/_659/SplitArrayIntoConsecutiveSubsequences.java)\
 [729. My Calendar I](src/leetcode/design/_729/MyCalendarI.java)\
