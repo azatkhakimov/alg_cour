@@ -33,10 +33,12 @@
 [823. Binary Trees With Factors](src/leetcode/_823/BinaryTreesWithFactors.java)\
 [844. Backspace String Compare](src/leetcode/_844/BackspaceStringCompare.java)
 [858. Mirror Reflection](src/leetcode/math/_858/MirrorReflection.java)\
+[869. Reordered Power of 2](src/leetcode/_869/ReorderedPowerOf2.java)\
 [871. Minimum Number of Refueling Stops](src/leetcode/_871/MinimumNumberOfRefuelingStops.java)\
 [890. Find and Replace Pattern](src/leetcode/array/_890/FindAndReplacePattern.java)\
 [916. Word Subsets](src/leetcode/array/_916/WordSubsets.java)\
 [936. Stamping The Sequence](src/leetcode/_936/StampingTheSequence.java)\
+[1329. Sort the Matrix Diagonally](src/leetcode/_1329/SortTheMatrixDiagonally.java)\
 [1338. Reduce Array Size to The Half](src/leetcode/_1338/ReduceArraySizeToTheHalf.java)\
 
 [TODO]
