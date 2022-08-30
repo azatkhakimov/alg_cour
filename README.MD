@@ -6,6 +6,7 @@
 [39. Combination Sum](src/leetcode/_39/CombinationSum.java)\
 [46. Permutations](src/leetcode/_46/Permutations.java)\
 [47. Permutations II](src/leetcode/_47/PermutationsII.java)\
+[48. Rotate Image](src/leetcode/_48/RotateImage.java)\
 [54. Spiral Matrix](src/leetcode/array/matrix/_54/SpiralMatrix.java)\
 [62. Unique Paths](src/leetcode/dp/UniquePaths.java)\
 [70. Climbing Stairs](src/leetcode/recursive/memorization/ClimbingStairs.java)\
