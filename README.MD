@@ -28,6 +28,7 @@
 [383. Ransom Note](src/leetcode/_383/RansomNote.java)\
 [417. Pacific Atlantic Water Flow](src/leetcode/_417/PacificAtlanticWaterFlow.java)\
 [442. Find All Duplicates in an Array](src/leetcode/array/_442/FindAllDuplicatesInAnArray.java)\
+[637. Average of Levels in Binary Tree](src/leetcode/_637/AverageOfLevelsInBinaryTree.java)\
 [659. Split Array into Consecutive Subsequences](src/leetcode/_659/SplitArrayIntoConsecutiveSubsequences.java)\
 [729. My Calendar I](src/leetcode/design/_729/MyCalendarI.java)\
 [784. Letter Case Permutation](src/leetcode/string/_784/LetterCasePermutation.java)\
