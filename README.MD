@@ -2,7 +2,6 @@
 
 [13. Roman to Integer](src/leetcode/_13/RomanInteger.java)\
 [30. Substring with Concatenation of All Words]()\
-[40. Combination Sum II]()\
 [39. Combination Sum](src/leetcode/_39/CombinationSum.java)\
 [46. Permutations](src/leetcode/_46/Permutations.java)\
 [47. Permutations II](src/leetcode/_47/PermutationsII.java)\
@@ -18,6 +17,7 @@
 [114. Flatten Binary Tree to Linked List](src/leetcode/tree/_114/FlattenBinaryTreeToLinkedList.java)\
 [126. Word Ladder II](src/leetcode/_126/WordLadderII.java)\
 [128. Longest Consecutive Sequence](src/leetcode/array/_128/LongestConsecutiveSequence.java)\
+[131. Palindrome Partitioning](src/leetcode/_131/PalindromePartitioning.java)\
 [200. Number of Islands](src/leetcode/_200/NumberOfIslands.java)\
 [242. Valid Anagram](src/leetcode/string/_242/ValidAnagram.java)\
 [300. Longest Increasing Subsequence](src/leetcode/_300/LongestIncreasingSubsequence.java)\
@@ -27,7 +27,9 @@
 [378. Kth Smallest Element in a Sorted Matrix](src/leetcode/array/_378/KthSmallestElementInASortedMatrix.java)\
 [383. Ransom Note](src/leetcode/_383/RansomNote.java)\
 [417. Pacific Atlantic Water Flow](src/leetcode/_417/PacificAtlanticWaterFlow.java)\
+[429. N-ary Tree Level Order Traversal](src/leetcode/_429/NaryTreeLevelOrderTraversal.java)\
 [442. Find All Duplicates in an Array](src/leetcode/array/_442/FindAllDuplicatesInAnArray.java)\
+[494. Target Sum](src/leetcode/_494/TargetSum.java)\
 [637. Average of Levels in Binary Tree](src/leetcode/_637/AverageOfLevelsInBinaryTree.java)\
 [659. Split Array into Consecutive Subsequences](src/leetcode/_659/SplitArrayIntoConsecutiveSubsequences.java)\
 [729. My Calendar I](src/leetcode/design/_729/MyCalendarI.java)\
