@@ -35,6 +35,7 @@
 [729. My Calendar I](src/leetcode/design/_729/MyCalendarI.java)\
 [784. Letter Case Permutation](src/leetcode/string/_784/LetterCasePermutation.java)\
 [804. Unique Morse Code Words](src/leetcode/_804/UniqueMorseCodeWords.java)\
+[814. Binary Tree Pruning](src/leetcode/_814/BinaryTreePruning.java)\
 [823. Binary Trees With Factors](src/leetcode/_823/BinaryTreesWithFactors.java)\
 [844. Backspace String Compare](src/leetcode/_844/BackspaceStringCompare.java)
 [858. Mirror Reflection](src/leetcode/math/_858/MirrorReflection.java)\
