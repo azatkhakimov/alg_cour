@@ -49,4 +49,5 @@
 [1329. Sort the Matrix Diagonally](src/leetcode/_1329/SortTheMatrixDiagonally.java)\
 [1338. Reduce Array Size to The Half](src/leetcode/_1338/ReduceArraySizeToTheHalf.java)\
 [1448. Count Good Nodes in Binary Tree](src/leetcode/_1448/CountGoodNodesInBinaryTree.java)\
+[1996. The Number of Weak Characters in the Game](src/leetcode/_1996/TheNumberOfWeakCharactersInTheGame.java)\
 [TODO]
