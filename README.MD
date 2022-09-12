@@ -45,10 +45,12 @@
 [890. Find and Replace Pattern](src/leetcode/array/_890/FindAndReplacePattern.java)\
 [916. Word Subsets](src/leetcode/array/_916/WordSubsets.java)\
 [936. Stamping The Sequence](src/leetcode/_936/StampingTheSequence.java)\
+[948. Bag of Tokens](src/leetcode/_948/BagOfTokens.java)\
 [967. Numbers With Same Consecutive Differences](src/leetcode/_967/NumbersWithSameConsecutiveDifferences.java)\
 [987. Vertical Order Traversal of a Binary Tree](src/leetcode/_987/VerticalOrderTraversalOfaBinaryTree.java)
 [1329. Sort the Matrix Diagonally](src/leetcode/_1329/SortTheMatrixDiagonally.java)\
 [1338. Reduce Array Size to The Half](src/leetcode/_1338/ReduceArraySizeToTheHalf.java)\
+[1383. Maximum Performance of a Team](src/leetcode/_1383/MaximumPerformanceOfaTeam.java)\
 [1448. Count Good Nodes in Binary Tree](src/leetcode/_1448/CountGoodNodesInBinaryTree.java)\
 [1996. The Number of Weak Characters in the Game](src/leetcode/_1996/TheNumberOfWeakCharactersInTheGame.java)\
 [TODO]
