@@ -1,4 +1,4 @@
-package leetcode.array.backtracking;
+package leetcode._216;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,6 +26,8 @@ public class CombinationSum3 {
 
     public static void main(String[] args) {
         CombinationSum3 combinationSum3 = new CombinationSum3();
-        System.out.println(combinationSum3.combinationSum3(3, 7));
+        System.out.println(combinationSum3.combinationSum3(3, 7));//Output: [[1,2,4]]
+        System.out.println(combinationSum3.combinationSum3(3,9));//Output: [[1,2,6],[1,3,5],[2,3,4]]
+        System.out.println(combinationSum3.combinationSum3(4,1));//Output: []
     }
 }
