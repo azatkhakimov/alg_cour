@@ -3,6 +3,7 @@
 [13. Roman to Integer](src/leetcode/_13/RomanInteger.java)\
 [30. Substring with Concatenation of All Words]()\
 [39. Combination Sum](src/leetcode/_39/CombinationSum.java)\
+[42. Trapping Rain Water](src/leetcode/_42/TrappingRainWater.java)\
 [46. Permutations](src/leetcode/_46/Permutations.java)\
 [47. Permutations II](src/leetcode/_47/PermutationsII.java)\
 [48. Rotate Image](src/leetcode/_48/RotateImage.java)\
@@ -24,6 +25,7 @@
 [242. Valid Anagram](src/leetcode/string/_242/ValidAnagram.java)\
 [300. Longest Increasing Subsequence](src/leetcode/_300/LongestIncreasingSubsequence.java)\
 [307. Range Sum Query - Mutable](src/leetcode/design/_307/RangeSumQueryMutable.java)\
+[336. Palindrome Pairs](src/leetcode/_336/PalindromePairs.java)
 [342. Power of Four](src/leetcode/_342/PowerOfFour.java)\
 [377. Combination Sum IV](src/leetcode/_377/CombinationSumIV.java)\
 [378. Kth Smallest Element in a Sorted Matrix](src/leetcode/array/_378/KthSmallestElementInASortedMatrix.java)\
@@ -48,6 +50,7 @@
 [936. Stamping The Sequence](src/leetcode/_936/StampingTheSequence.java)\
 [948. Bag of Tokens](src/leetcode/_948/BagOfTokens.java)\
 [967. Numbers With Same Consecutive Differences](src/leetcode/_967/NumbersWithSameConsecutiveDifferences.java)\
+[985. Sum of Even Numbers After Queries](src/leetcode/_985/SumOfEvenNumbersAfterQueries.java)\
 [987. Vertical Order Traversal of a Binary Tree](src/leetcode/_987/VerticalOrderTraversalOfaBinaryTree.java)
 [1329. Sort the Matrix Diagonally](src/leetcode/_1329/SortTheMatrixDiagonally.java)\
 [1338. Reduce Array Size to The Half](src/leetcode/_1338/ReduceArraySizeToTheHalf.java)\
