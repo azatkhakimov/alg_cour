@@ -41,6 +41,7 @@
 [804. Unique Morse Code Words](src/leetcode/_804/UniqueMorseCodeWords.java)\
 [814. Binary Tree Pruning](src/leetcode/_814/BinaryTreePruning.java)\
 [823. Binary Trees With Factors](src/leetcode/_823/BinaryTreesWithFactors.java)\
+[838. Push Dominoes](src/leetcode/_838/PushDominoes.java)\
 [844. Backspace String Compare](src/leetcode/_844/BackspaceStringCompare.java)
 [858. Mirror Reflection](src/leetcode/math/_858/MirrorReflection.java)\
 [869. Reordered Power of 2](src/leetcode/_869/ReorderedPowerOf2.java)\
@@ -52,6 +53,7 @@
 [967. Numbers With Same Consecutive Differences](src/leetcode/_967/NumbersWithSameConsecutiveDifferences.java)\
 [985. Sum of Even Numbers After Queries](src/leetcode/_985/SumOfEvenNumbersAfterQueries.java)\
 [987. Vertical Order Traversal of a Binary Tree](src/leetcode/_987/VerticalOrderTraversalOfaBinaryTree.java)
+[990. Satisfiability of Equality Equations](src/leetcode/_990/SatisfiabilityOfEqualityEquations.java)\
 [1329. Sort the Matrix Diagonally](src/leetcode/_1329/SortTheMatrixDiagonally.java)\
 [1338. Reduce Array Size to The Half](src/leetcode/_1338/ReduceArraySizeToTheHalf.java)\
 [1383. Maximum Performance of a Team](src/leetcode/_1383/MaximumPerformanceOfaTeam.java)\
