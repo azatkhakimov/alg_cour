@@ -2,29 +2,44 @@ package leetcode._131;
 
 import java.util.ArrayList;
 import java.util.List;
-//https://leetcode.com/problems/palindrome-partitioning/solution/
+//https://leetcode.com/problems/palindrome-partitioning/discuss/182307/Java%3A-Backtracking-Template-General-Approach
 public class PalindromePartitioning {
     public List<List<String>> partition(String s) {
-        int len = s.length();
-        boolean[][] dp = new boolean[len][len];
+        if(s == null || s.length() == 0){
+            return new ArrayList<>();
+        }
         List<List<String>> result = new ArrayList<>();
-        dfs(result, s, 0, new ArrayList<>(), dp);
+        backtrack(s, new ArrayList<>(), result);
         return result;
     }
 
-    private void dfs(List<List<String>> result, String s, int start, ArrayList<String> currentList, boolean[][] dp) {
-        if(start >= s.length()){
-            result.add(new ArrayList<>(currentList));
+    private void backtrack(String s, List<String> step, List<List<String>> result) {
+        if(s == null || s.length() == 0){
+            result.add(new ArrayList<>(step));
+            return;
         }
-        for (int end = start; end < s.length(); end++) {
-            if(s.charAt(start) == s.charAt(end) && (end-start <= 2 || dp[start+1][end-1])){
-                dp[start][end] = true;
-                currentList.add(s.substring(start, end+1));
-                dfs(result, s, end+1, currentList, dp);
-                currentList.remove(currentList.size()-1);
+        for (int i = 1; i <= s.length(); i++) {
+            String temp = s.substring(0, i);
+            if(!isPalindrome(temp)){
+                continue;
             }
+            step.add(temp);
+            backtrack(s.substring(i, s.length()), step, result);
+            step.remove(step.size()-1);
         }
+    }
 
+    private boolean isPalindrome(String s) {
+        int left = 0;
+        int right = s.length()-1;
+        while(left <= right){
+            if(s.charAt(left) != s.charAt(right)){
+                return false;
+            }
+            left++;
+            right--;
+        }
+        return true;
     }
 
     public static void main(String[] args) {
