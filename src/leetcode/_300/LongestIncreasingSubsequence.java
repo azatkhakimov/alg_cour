@@ -2,7 +2,7 @@ package leetcode._300;
 
 import java.util.Arrays;
 
-//https://leetcode.com/problems/longest-increasing-subsequence/
+//https://www.youtube.com/watch?v=fV-TF4OvZpk
 public class LongestIncreasingSubsequence {
     public int lengthOfLIS(int[] nums) {
         if(nums.length <= 1){

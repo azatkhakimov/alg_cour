@@ -1,6 +1,7 @@
 # Leetcode
 
 [13. Roman to Integer](src/leetcode/_13/RomanInteger.java)\
+[17. Letter Combinations of a Phone Number](src/leetcode/_17/LetterCombinationsOfAPhoneNumber.java)\
 [30. Substring with Concatenation of All Words]()\
 [39. Combination Sum](src/leetcode/_39/CombinationSum.java)\
 [42. Trapping Rain Water](src/leetcode/_42/TrappingRainWater.java)\
@@ -13,18 +14,23 @@
 [73. Set Matrix Zeroes](src/leetcode/array/matrix/SetMatrixZeroes.java)\
 [77. Combinations](src/leetcode/_77/Combinations.java)\
 [78. Subsets](src/leetcode/backtracking/_78/Subsets.java)\
+[91. Decode Ways](src/leetcode/_91/DecodeWays.java)\
 [98. Validate Binary Search Tree](src/leetcode/_98/ValidateBinarySearchTree.java)\
 [108. Convert Sorted Array to Binary Search Tree](src/leetcode/_108/ConvertSortedArrayToBinarySearchTree.java)\
 [114. Flatten Binary Tree to Linked List](src/leetcode/tree/_114/FlattenBinaryTreeToLinkedList.java)\
 [126. Word Ladder II](src/leetcode/_126/WordLadderII.java)\
 [128. Longest Consecutive Sequence](src/leetcode/array/_128/LongestConsecutiveSequence.java)\
 [131. Palindrome Partitioning](src/leetcode/_131/PalindromePartitioning.java)\
+[152. Maximum Product Subarray](src/leetcode/_152/MaximumProductSubarray.java)\
 [188. Best Time to Buy and Sell Stock IV](src/leetcode/_188/BestTimeToBuyAndSellStock4.java)\
 [200. Number of Islands](src/leetcode/_200/NumberOfIslands.java)\
+[213. House Robber II](src/leetcode/_213/HouseRobberII.java)\
 [216. Combination Sum III](src/leetcode/_216/CombinationSum3.java)\
+[218. The Skyline Problem](src/leetcode/_218/TheSkylineProblem.java)\
 [242. Valid Anagram](src/leetcode/string/_242/ValidAnagram.java)\
 [300. Longest Increasing Subsequence](src/leetcode/_300/LongestIncreasingSubsequence.java)\
 [307. Range Sum Query - Mutable](src/leetcode/design/_307/RangeSumQueryMutable.java)\
+[322. Coin Change](src/leetcode/_322/CoinChange.java)\
 [336. Palindrome Pairs](src/leetcode/_336/PalindromePairs.java)
 [342. Power of Four](src/leetcode/_342/PowerOfFour.java)\
 [377. Combination Sum IV](src/leetcode/_377/CombinationSumIV.java)\
@@ -54,11 +60,13 @@
 [985. Sum of Even Numbers After Queries](src/leetcode/_985/SumOfEvenNumbersAfterQueries.java)\
 [987. Vertical Order Traversal of a Binary Tree](src/leetcode/_987/VerticalOrderTraversalOfaBinaryTree.java)
 [990. Satisfiability of Equality Equations](src/leetcode/_990/SatisfiabilityOfEqualityEquations.java)\
+[1155. Number of Dice Rolls With Target Sum](src/leetcode/_1155/NumberOfDiceRollsWithTargetSum.java)\
 [1329. Sort the Matrix Diagonally](src/leetcode/_1329/SortTheMatrixDiagonally.java)\
 [1338. Reduce Array Size to The Half](src/leetcode/_1338/ReduceArraySizeToTheHalf.java)\
 [1383. Maximum Performance of a Team](src/leetcode/_1383/MaximumPerformanceOfaTeam.java)\
 [1448. Count Good Nodes in Binary Tree](src/leetcode/_1448/CountGoodNodesInBinaryTree.java)\
 [1457. Pseudo-Palindromic Paths in a Binary Tree](src/leetcode/_1457/PseudoPalindromicPathsInaBinaryTree.java)\
+[1578. Minimum Time to Make Rope Colorful](src/leetcode/_1578/MinimumTimeToMakeRopeColorful.java)\
 [1770. Maximum Score from Performing Multiplication Operations](src/leetcode/_1770/MaximumScoreFromPerformingMultiplicationOperations.java)\
 [1996. The Number of Weak Characters in the Game](src/leetcode/_1996/TheNumberOfWeakCharactersInTheGame.java)\
 [2007. Find Original Array From Doubled Array](src/leetcode/_2007/FindOriginalArrayFromDoubledArray.java)\

@@ -1,4 +1,4 @@
-package leetcode.array;
+package leetcode._152;
 
 public class MaximumProductSubarray {
     public int maxProduct(int[] nums) {
@@ -19,6 +19,7 @@ public class MaximumProductSubarray {
     }
     public static void main(String[] args) {
         MaximumProductSubarray maximumProductSubarray = new MaximumProductSubarray();
-        System.out.println(maximumProductSubarray.maxProduct(new int[]{2,3,-2,4}));
+        System.out.println(maximumProductSubarray.maxProduct(new int[]{2,3,-2,4}));//Output: 6
+        System.out.println(maximumProductSubarray.maxProduct(new int[]{-2,0,-1}));//Output: 0
     }
 }
