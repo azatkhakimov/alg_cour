@@ -40,6 +40,7 @@
 [429. N-ary Tree Level Order Traversal](src/leetcode/_429/NaryTreeLevelOrderTraversal.java)\
 [442. Find All Duplicates in an Array](src/leetcode/array/_442/FindAllDuplicatesInAnArray.java)\
 [494. Target Sum](src/leetcode/_494/TargetSum.java)\
+[623. Add One Row to Tree](src/leetcode/_623/AddOneRowToTree.java)\
 [637. Average of Levels in Binary Tree](src/leetcode/_637/AverageOfLevelsInBinaryTree.java)\
 [659. Split Array into Consecutive Subsequences](src/leetcode/_659/SplitArrayIntoConsecutiveSubsequences.java)\
 [729. My Calendar I](src/leetcode/design/_729/MyCalendarI.java)\

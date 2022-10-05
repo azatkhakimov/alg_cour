@@ -21,8 +21,8 @@ public class DecodeWays {
     public static void main(String[] args) {
         DecodeWays decodeWays = new DecodeWays();
         System.out.println(decodeWays.numDecodings("11"));
-        System.out.println(decodeWays.numDecodings("12"));//Explanation: "12" could be decoded as "AB" (1 2) or "L" (12).
-        System.out.println(decodeWays.numDecodings("226"));//Explanation: "226" could be decoded as "BZ" (2 26), "VF" (22 6), or "BBF" (2 2 6).
+        System.out.println(decodeWays.numDecodings("12"));//Input: s = "12"
+        System.out.println(decodeWays.numDecodings("226"));//Output: 3
         System.out.println(decodeWays.numDecodings("06"));//Explanation: "06" cannot be mapped to "F" because of the leading zero ("6" is different from "06").
     }
 }
