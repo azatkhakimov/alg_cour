@@ -9,6 +9,7 @@
 [47. Permutations II](src/leetcode/_47/PermutationsII.java)\
 [48. Rotate Image](src/leetcode/_48/RotateImage.java)\
 [54. Spiral Matrix](src/leetcode/array/matrix/_54/SpiralMatrix.java)\
+[55. Jump Game](src/leetcode/_55/JumpGame.java)\
 [62. Unique Paths](src/leetcode/dp/UniquePaths.java)\
 [70. Climbing Stairs](src/leetcode/recursive/memorization/ClimbingStairs.java)\
 [73. Set Matrix Zeroes](src/leetcode/array/matrix/SetMatrixZeroes.java)\
@@ -42,6 +43,7 @@
 [494. Target Sum](src/leetcode/_494/TargetSum.java)\
 [623. Add One Row to Tree](src/leetcode/_623/AddOneRowToTree.java)\
 [637. Average of Levels in Binary Tree](src/leetcode/_637/AverageOfLevelsInBinaryTree.java)\
+[647. Palindromic Substrings](src/leetcode/_647/PalindromicSubstrings.java)
 [659. Split Array into Consecutive Subsequences](src/leetcode/_659/SplitArrayIntoConsecutiveSubsequences.java)\
 [729. My Calendar I](src/leetcode/design/_729/MyCalendarI.java)\
 [784. Letter Case Permutation](src/leetcode/string/_784/LetterCasePermutation.java)\

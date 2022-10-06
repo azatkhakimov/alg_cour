@@ -1,4 +1,4 @@
-package leetcode.dp;
+package leetcode._62;
 
 public class UniquePaths {
     public int uniquePaths(int m, int n) {
