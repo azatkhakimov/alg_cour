@@ -45,6 +45,7 @@
 [637. Average of Levels in Binary Tree](src/leetcode/_637/AverageOfLevelsInBinaryTree.java)\
 [647. Palindromic Substrings](src/leetcode/_647/PalindromicSubstrings.java)
 [659. Split Array into Consecutive Subsequences](src/leetcode/_659/SplitArrayIntoConsecutiveSubsequences.java)\
+[673. Number of Longest Increasing Subsequence](src/leetcode/_673/NumberOfLongestIncreasingSubsequence.java)\
 [729. My Calendar I](src/leetcode/design/_729/MyCalendarI.java)\
 [784. Letter Case Permutation](src/leetcode/string/_784/LetterCasePermutation.java)\
 [804. Unique Morse Code Words](src/leetcode/_804/UniqueMorseCodeWords.java)\
