@@ -24,6 +24,8 @@
 [128. Longest Consecutive Sequence](src/leetcode/array/_128/LongestConsecutiveSequence.java)\
 [131. Palindrome Partitioning](src/leetcode/_131/PalindromePartitioning.java)\
 [142. Linked List Cycle II](src/leetcode/_142/LinkedListCycleII.java)\
+[143. Reorder List](src/leetcode/_143/ReorderList.java)\
+[148. Sort List](src/leetcode/_148/SortList.java)\
 [152. Maximum Product Subarray](src/leetcode/_152/MaximumProductSubarray.java)\
 [188. Best Time to Buy and Sell Stock IV](src/leetcode/_188/BestTimeToBuyAndSellStock4.java)\
 [200. Number of Islands](src/leetcode/_200/NumberOfIslands.java)\
@@ -73,6 +75,7 @@
 [1155. Number of Dice Rolls With Target Sum](src/leetcode/_1155/NumberOfDiceRollsWithTargetSum.java)\
 [1328. Break a Palindrome](src/leetcode/_1328/BreakaPalindrome.java)\
 [1329. Sort the Matrix Diagonally](src/leetcode/_1329/SortTheMatrixDiagonally.java)\
+[1335. Minimum Difficulty of a Job Schedule](src/leetcode/_1335/MinimumDifficultyOfaJobSchedule.java)\
 [1338. Reduce Array Size to The Half](src/leetcode/_1338/ReduceArraySizeToTheHalf.java)\
 [1383. Maximum Performance of a Team](src/leetcode/_1383/MaximumPerformanceOfaTeam.java)\
 [1448. Count Good Nodes in Binary Tree](src/leetcode/_1448/CountGoodNodesInBinaryTree.java)\
