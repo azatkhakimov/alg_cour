@@ -21,9 +21,9 @@ public class PacificAtlanticWaterFlow {
             dfs(heights, pacific, Integer.MIN_VALUE, i, 0);
             dfs(heights, atlantic, Integer.MIN_VALUE, i, col - 1);
         }
-        for (int i = 0; i < col; i++) {
-            dfs(heights, pacific, Integer.MIN_VALUE, 0, i);
-            dfs(heights, atlantic, Integer.MIN_VALUE, row - 1, i);
+        for (int j = 0; j < col; j++) {
+            dfs(heights, pacific, Integer.MIN_VALUE, 0, j);
+            dfs(heights, atlantic, Integer.MIN_VALUE, row - 1, j);
         }
 
         for (int i = 0; i < row; i++) {
@@ -39,7 +39,10 @@ public class PacificAtlanticWaterFlow {
     private void dfs(int[][] heights, boolean[][] ocean, int height, int i, int j) {
         int row = ocean.length;
         int col = ocean[0].length;
-        if (i < 0 || i >= row || j < 0 || j >= col) {
+        if (i < 0 || i >= row) {
+            return;
+        }
+        if(j < 0 || j >= col){
             return;
         }
         if(heights[i][j] < height || ocean[i][j]){

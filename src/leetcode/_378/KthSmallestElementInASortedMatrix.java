@@ -1,9 +1,9 @@
-package leetcode.array._378;
+package leetcode._378;
 
 public class KthSmallestElementInASortedMatrix {
     public int kthSmallest(int[][] matrix, int k) {
         int low = matrix[0][0];
-        int high = matrix[matrix.length-1][matrix[0].length-1] +1;
+        int high = matrix[matrix.length-1][matrix[0].length-1] + 1;
         while (low < high){
             int mid = low+(high-low)/2;
             int count = 0;

@@ -1,4 +1,4 @@
-package leetcode.string._38;
+package leetcode._38;
 
 public class CountAndSay {
     public String countAndSay(int n) {
@@ -30,7 +30,7 @@ public class CountAndSay {
 
     public static void main(String[] args) {
         CountAndSay countAndSay = new CountAndSay();
-        System.out.println(countAndSay.countAndSay(4));
+        System.out.println(countAndSay.countAndSay(4));//
     }
 }
 

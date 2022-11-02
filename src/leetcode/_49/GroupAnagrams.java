@@ -1,4 +1,4 @@
-package leetcode.string._49;
+package leetcode._49;
 
 import java.util.*;
 
@@ -22,6 +22,6 @@ public class GroupAnagrams {
 
     public static void main(String[] args) {
         GroupAnagrams groupAnagrams = new GroupAnagrams();
-        System.out.println(groupAnagrams.groupAnagrams(new String[]{"eat","tea","tan","ate","nat","bat"}));
+        System.out.println(groupAnagrams.groupAnagrams(new String[]{"eat","tea","tan","ate","nat","bat"}));//Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
     }
 }
