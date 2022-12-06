@@ -1,4 +1,4 @@
-package leetcode.array;
+package leetcode._1047;
 
 public class RemoveAllAdjacentDuplicatesString1 {
     public String removeDuplicates(String s) {

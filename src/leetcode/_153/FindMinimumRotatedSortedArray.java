@@ -1,4 +1,4 @@
-package leetcode.array;
+package leetcode._153;
 
 public class FindMinimumRotatedSortedArray {
     public int findMin(int[] nums) {

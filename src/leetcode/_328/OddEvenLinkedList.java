@@ -1,4 +1,4 @@
-package leetcode.linkedlist._328;
+package leetcode._328;
 
 public class OddEvenLinkedList {
     public ListNode oddEvenList(ListNode head) {

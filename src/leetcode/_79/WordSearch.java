@@ -1,4 +1,4 @@
-package leetcode.array.matrix._79;
+package leetcode._79;
 //DFS
 public class WordSearch {
     public boolean exist(char[][] board, String word) {
