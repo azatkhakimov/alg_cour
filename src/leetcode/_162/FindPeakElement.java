@@ -1,4 +1,4 @@
-package leetcode.sorting._162;
+package leetcode._162;
 
 public class FindPeakElement {
     public int findPeakElement(int[] nums) {

@@ -1,4 +1,4 @@
-package leetcode.others._150;
+package leetcode._150;
 
 import javax.naming.event.EventContext;
 import java.text.NumberFormat;
