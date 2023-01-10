@@ -22,6 +22,7 @@
 [62. Unique Paths](src/leetcode/dp/UniquePaths.java)\
 [70. Climbing Stairs](src/leetcode/_70/ClimbingStairs.java)\
 [73. Set Matrix Zeroes](src/leetcode/array/matrix/SetMatrixZeroes.java)\
+[74. Search a 2D Matrix](src/leetcode/_74/SearchA2DMatrix.java)\
 [76. Minimum Window Substring](src/leetcode/_76/MinimumWindowSubstring.java)\
 [77. Combinations](src/leetcode/_77/Combinations.java)\
 [79. Word Search](src/leetcode/_79/WordSearch.java)\
@@ -29,14 +30,17 @@
 [78. Subsets](src/leetcode/backtracking/_78/Subsets.java)\
 [91. Decode Ways](src/leetcode/_91/DecodeWays.java)\
 [98. Validate Binary Search Tree](src/leetcode/_98/ValidateBinarySearchTree.java)\
+[100. Same Tree](src/leetcode/_100/SameTree.java)\
 [108. Convert Sorted Array to Binary Search Tree](src/leetcode/_108/ConvertSortedArrayToBinarySearchTree.java)\
 [114. Flatten Binary Tree to Linked List](src/leetcode/tree/_114/FlattenBinaryTreeToLinkedList.java)\
 [124. Binary Tree Maximum Path Sum](src/leetcode/_124/BinaryTreeMaximumPathSum.java)\
 [126. Word Ladder II](src/leetcode/_126/WordLadderII.java)\
 [128. Longest Consecutive Sequence](src/leetcode/array/_128/LongestConsecutiveSequence.java)\
 [131. Palindrome Partitioning](src/leetcode/_131/PalindromePartitioning.java)\
+[134. Gas Station](src/leetcode/_134/GasStation.java)\
 [142. Linked List Cycle II](src/leetcode/_142/LinkedListCycleII.java)\
 [143. Reorder List](src/leetcode/_143/ReorderList.java)\
+[144. Binary Tree Preorder Traversal](src/leetcode/_144/BinaryTreePreorderTraversal.java)\
 [148. Sort List](src/leetcode/_148/SortList.java)\
 [150. Evaluate Reverse Polish Notation](src/leetcode/_150/EvaluateReversePolishNotation.java)\
 [151. Reverse Words in a String](src/leetcode/_151/ReverseWordsInaString.java)\
@@ -143,6 +147,7 @@
 [1662. Check If Two String Arrays are Equivalent](src/leetcode/_1662/CheckIfTwoStringArraysAreEquivalent.java)\
 [1706. Where Will the Ball Fall](src/leetcode/_1706/WhereWillTheBallFall.java)\
 [1770. Maximum Score from Performing Multiplication Operations](src/leetcode/_1770/MaximumScoreFromPerformingMultiplicationOperations.java)\
+[1833. Maximum Ice Cream Bars](src/leetcode/_1833/MaximumIceCreamBars.java)
 [1834. Single-Threaded CPU](src/leetcode/_1834/SingleThreadedCPU.java)
 [1926. Nearest Exit from Entrance in Maze](src/leetcode/_1926/NearestExitFromEntranceInMaze.java)\
 [1962. Remove Stones to Minimize the Total](src/leetcode/_1962/RemoveStonesToMinimizeTheTotal.java)\
