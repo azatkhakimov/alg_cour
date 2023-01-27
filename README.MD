@@ -29,6 +29,7 @@
 [81. Search in Rotated Sorted Array II](src/leetcode/_81/SearchInRotatedSortedArrayII.java)\
 [78. Subsets](src/leetcode/backtracking/_78/Subsets.java)\
 [91. Decode Ways](src/leetcode/_91/DecodeWays.java)\
+[93. Restore IP Addresses](src/leetcode/_93/RestoreIPAddresses.java)\
 [98. Validate Binary Search Tree](src/leetcode/_98/ValidateBinarySearchTree.java)\
 [100. Same Tree](src/leetcode/_100/SameTree.java)\
 [108. Convert Sorted Array to Binary Search Tree](src/leetcode/_108/ConvertSortedArrayToBinarySearchTree.java)\
@@ -50,12 +51,14 @@
 [188. Best Time to Buy and Sell Stock IV](src/leetcode/_188/BestTimeToBuyAndSellStock4.java)\
 [198. House Robber](src/leetcode/_198/HouseRobber.java)\
 [200. Number of Islands](src/leetcode/_200/NumberOfIslands.java)\
+[209. Minimum Size Subarray Sum](src/leetcode/_209/MinimumSizeSubarraySum.java)\
 [213. House Robber II](src/leetcode/_213/HouseRobberII.java)\
 [216. Combination Sum III](src/leetcode/_216/CombinationSum3.java)\
 [218. The Skyline Problem](src/leetcode/_218/TheSkylineProblem.java)\
 [222. Count Complete Tree Nodes](src/leetcode/_222/CountCompleteTreeNodes.java)\
 [224. Basic Calculator](src/leetcode/_224/BasicCalculator.java)\
 [232. Implement Queue using Stacks](src/leetcode/_232/ImplementQueueUsingStacks.java)\
+[240. Search a 2D Matrix II](src/leetcode/_240/SearchA2DMatrixII.java)\
 [242. Valid Anagram](src/leetcode/string/_242/ValidAnagram.java)\
 [290. Word Pattern](src/leetcode/_290/WordPattern.java)\
 [300. Longest Increasing Subsequence](src/leetcode/_300/LongestIncreasingSubsequence.java)\
@@ -82,13 +85,17 @@
 [446. Arithmetic Slices II - Subsequence](src/leetcode/_446/ArithmeticSlicesIISubsequence.java)\
 [451. Sort Characters By Frequency](src/leetcode/_451/SortCharactersByFrequency.java)\
 [452. Minimum Number of Arrows to Burst Balloons](src/leetcode/_452/MinimumNumberOfArrowsToBurstBalloons.java)\
+[472. Concatenated Words](src/leetcode/_472/ConcatenatedWords.java)\
+[491. Non-decreasing Subsequences](src/leetcode/_491/NonDecreasingSubsequences.java)\
 [494. Target Sum](src/leetcode/_494/TargetSum.java)\
 [520. Detect Capital](src/leetcode/_520/DetectCapital.java)\
+[567. Permutation in String](src/leetcode/_567/PermutationInString.java)\
 [587. Erect the Fence](src/leetcode/_587/ErectTheFence.java)\
 [623. Add One Row to Tree](src/leetcode/_623/AddOneRowToTree.java)\
 [637. Average of Levels in Binary Tree](src/leetcode/_637/AverageOfLevelsInBinaryTree.java)\
 [645. Set Mismatch](src/leetcode/_645/SetMismatch.java)\
-[647. Palindromic Substrings](src/leetcode/_647/PalindromicSubstrings.java)
+[647. Palindromic Substrings](src/leetcode/_647/PalindromicSubstrings.java)\
+[658. Find K Closest Elements](src/leetcode/_658/FindKClosestElements.java)\
 [659. Split Array into Consecutive Subsequences](src/leetcode/_659/SplitArrayIntoConsecutiveSubsequences.java)\
 [673. Number of Longest Increasing Subsequence](src/leetcode/_673/NumberOfLongestIncreasingSubsequence.java)\
 [692. Top K Frequent Words](src/leetcode/_692/TopKFrequentWords.java)\
@@ -96,6 +103,7 @@
 [729. My Calendar I](src/leetcode/design/_729/MyCalendarI.java)\
 [766. Toeplitz Matrix](src/leetcode/_766/ToeplitzMatrix.java)\
 [784. Letter Case Permutation](src/leetcode/string/_784/LetterCasePermutation.java)\
+[787. Cheapest Flights Within K Stops](src/leetcode/_787/CheapestFlightsWithinKStops.java)\
 [790. Domino and Tromino Tiling](src/leetcode/_790/DominoAndTrominoTiling.java)\
 [797. All Paths From Source to Target](src/leetcode/_797/AllPathsFromSourceToTarget.java)\
 [804. Unique Morse Code Words](src/leetcode/_804/UniqueMorseCodeWords.java)\
@@ -112,21 +120,28 @@
 [872. Leaf-Similar Trees](src/leetcode/_872/LeafSimilarTrees.java)\
 [886. Possible Bipartition](src/leetcode/_886/PossibleBipartition.java)\
 [890. Find and Replace Pattern](src/leetcode/array/_890/FindAndReplacePattern.java)\
+[904. Fruit Into Baskets](src/leetcode/_904/FruitIntoBaskets.java)\
 [907. Sum of Subarray Minimums](src/leetcode/_907/SumOfSubarrayMinimums.java)\
+[909. Snakes and Ladders](src/leetcode/_909/SnakesAndLadders.java)\
 [916. Word Subsets](src/leetcode/array/_916/WordSubsets.java)\
+[918. Maximum Sum Circular Subarray](src/leetcode/_918/MaximumSumCircularSubarray.java)\
+[926. Flip String to Monotone Increasing](src/leetcode/_926/FlipStringToMonotoneIncreasing.java)\
 [931. Minimum Falling Path Sum](src/leetcode/_931/MinimumFallingPathSum.java)\
 [936. Stamping The Sequence](src/leetcode/_936/StampingTheSequence.java)\
 [938. Range Sum of BST](src/leetcode/_938/RangeSumOfBST.java)\
 [944. Delete Columns to Make Sorted](src/leetcode/_944/DeleteColumnsToMakeSorted.java)\
 [948. Bag of Tokens](src/leetcode/_948/BagOfTokens.java)\
 [967. Numbers With Same Consecutive Differences](src/leetcode/_967/NumbersWithSameConsecutiveDifferences.java)\
+[974. Subarray Sums Divisible by K](src/leetcode/_974/SubarraySumsDivisibleByK.java)\
 [976. Largest Perimeter Triangle](src/leetcode/_976/LargestPerimeterTriangle.java)\
 [985. Sum of Even Numbers After Queries](src/leetcode/_985/SumOfEvenNumbersAfterQueries.java)\
 [986. Interval List Intersections](src/leetcode/_986/IntervalListIntersections.java)\
 [987. Vertical Order Traversal of a Binary Tree](src/leetcode/_987/VerticalOrderTraversalOfaBinaryTree.java)
 [990. Satisfiability of Equality Equations](src/leetcode/_990/SatisfiabilityOfEqualityEquations.java)\
+[997. Find the Town Judge](src/leetcode/_997/FindTheTownJudge.java)\    
 [1026. Maximum Difference Between Node and Ancestor](src/leetcode/_1026/MaximumDifferenceBetweenNodeAndAncestor.java)\
 [1047. Remove All Adjacent Duplicates In String](src/leetcode/_1047/RemoveAllAdjacentDuplicatesString1.java)/
+[1061. Lexicographically Smallest Equivalent String](src/leetcode/_1061/LexicographicallySmallestEquivalentString.java)\
 [1143. Longest Common Subsequence](src/leetcode/_1143/LongestCommonSubsequence.java)\
 [1155. Number of Dice Rolls With Target Sum](src/leetcode/_1155/NumberOfDiceRollsWithTargetSum.java)\
 [1207. Unique Number of Occurrences](src/leetcode/_1207/UniqueNumberOfOccurrences.java)\
@@ -141,6 +156,7 @@
 [1383. Maximum Performance of a Team](src/leetcode/_1383/MaximumPerformanceOfaTeam.java)\
 [1448. Count Good Nodes in Binary Tree](src/leetcode/_1448/CountGoodNodesInBinaryTree.java)\
 [1457. Pseudo-Palindromic Paths in a Binary Tree](src/leetcode/_1457/PseudoPalindromicPathsInaBinaryTree.java)\
+[1519. Number of Nodes in the Sub-Tree With the Same Label](src/leetcode/_1519/NumberOfNodesInTheSubTreeWithTheSameLabel.java)\
 [1544. Make The String Great](src/leetcode/_1544/MakeTheStringGreat.java)\
 [1578. Minimum Time to Make Rope Colorful](src/leetcode/_1578/MinimumTimeToMakeRopeColorful.java)\
 [1657. Determine if Two Strings Are Close](src/leetcode/_1657/DetermineIfTwoStringsAreClose.java)\
@@ -155,7 +171,10 @@
 [2007. Find Original Array From Doubled Array](src/leetcode/_2007/FindOriginalArrayFromDoubledArray.java)\
 [2095. Delete the Middle Node of a Linked List](src/leetcode/_2095/DeleteTheMiddleNodeOfALinkedList.java)\
 [2136. Earliest Possible Day of Full Bloom](src/leetcode/_2136/EarliestPossibleDayOfFullBloom.java)\
+[2246. Longest Path With Different Adjacent Characters](src/leetcode/_2246/LongestPathWithDifferentAdjacentCharacters.java)\
 [2389. Longest Subsequence With Limited Sum](src/leetcode/_2389/LongestSubsequenceWithLimitedSum.java)\
 [2256. Minimum Average Difference](src/leetcode/_2256/MinimumAverageDifference.java)\
 [2279. Maximum Bags With Full Capacity of Rocks](src/leetcode/_2279/MaximumBagsWithFullCapacityOfRocks.java)\
+[2359. Find Closest Node to Given Two Nodes](src/leetcode/_2359/FindClosestNodeToGivenTwoNodes.java)\
+[2421. Number of Good Paths](src/leetcode/_2421/NumberOfGoodPaths.java)\
 [TODO]
