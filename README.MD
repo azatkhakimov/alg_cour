@@ -1,5 +1,27 @@
 # Leetcode
 
+# Binary Search
+[1498. Number of Subsequences That Satisfy the Given Sum Condition](src/leetcode/_1498/binary_search)\
+
+# Two Pointers
+[1498. Number of Subsequences That Satisfy the Given Sum Condition](src/leetcode/_1498/two_pointers/NumberofSubsequencesThatSatisfytheGivenSumCondition.java)\
+
+
+# Sliding Window
+[3. Longest Substring Without Repeating Characters](src/leetcode/_3/LongestSubstringWithoutRepeatingCharacters.java)\
+[209. Minimum Size Subarray Sum](src/leetcode/_209/MinimumSizeSubarraySum.java)\
+[239. Sliding Window Maxim](src/leetcode/_239/SlidingWindowMaximum.java)\
+[1456. Maximum Number of Vowels in a Substring of Given Length](src/leetcode/_1456/MaximumNumberofVowelsinaSubstringofGivenLength.java)\
+    
+# Iterative Dynamic Programming
+[1035. Uncrossed Lines](src/leetcode/_1035/UncrossedLines.java)\
+[1143. Longest Common Subsequence](src/leetcode/_1143/LongestCommonSubsequence.java)\
+[2466. Count Ways To Build Good Strings](src/leetcode/_2466/CountWaysToBuildGoodStrings.java)\
+
+# Linked List
+[24. Swap Nodes in Pairs](src/leetcode/_24/SwapNodePairs.java)\
+
+
 [6. Zigzag Conversion](src/leetcode/_6/ZigzagConversion.java)\
 [12. Integer to Roman](src/leetcode/_12/IntegerToRoman.java)\
 [13. Roman to Integer](src/leetcode/_13/RomanInteger.java)\
@@ -23,6 +45,7 @@
 [55. Jump Game](src/leetcode/_55/JumpGame.java)\
 [56. Merge Intervals](src/leetcode/_56/MergeIntervals.java)\
 [57. Insert Interval](src/leetcode/_57/InsertInterval.java)\
+[59. Spiral Matrix II](src/leetcode/_59/SpiralMatrixII.java)\
 [61. Rotate List](src/leetcode/_61/RotateList.java)\
 [62. Unique Paths](src/leetcode/dp/UniquePaths.java)\
 [64. Minimum Path Sum](src/leetcode/_64/MinimumPathSum.java)\
@@ -62,12 +85,13 @@
 [152. Maximum Product Subarray](src/leetcode/_152/MaximumProductSubarray.java)\
 [153. Find Minimum in Rotated Sorted Array](src/leetcode/_153/FindMinimumRotatedSortedArray.java)\
 [162. Find Peak Element](src/leetcode/_162/FindPeakElement.java)\
+[187. Repeated DNA Sequences](src/leetcode/_187/RepeatedDNASequences.java)\
 [188. Best Time to Buy and Sell Stock IV](src/leetcode/_188/BestTimeToBuyAndSellStock4.java)\
 [198. House Robber](src/leetcode/_198/HouseRobber.java)\
 [200. Number of Islands](src/leetcode/_200/NumberOfIslands.java)\
 [202. Happy Number](src/leetcode/_202/HappyNumber.java)
 [208. Implement Trie (Prefix Tree)](src/leetcode/_208/ImplementTriePrefixTree.java)\
-[209. Minimum Size Subarray Sum](src/leetcode/_209/MinimumSizeSubarraySum.java)\
+
 [211. Design Add and Search Words Data Structure](src/leetcode/_211/DesignAddAndSearchWordsDataStructure.java)\
 [213. House Robber II](src/leetcode/_213/HouseRobberII.java)\
 [216. Combination Sum III](src/leetcode/_216/CombinationSum3.java)\
@@ -178,7 +202,7 @@
 [1071. Greatest Common Divisor of Strings](src/leetcode/_1071/GreatestCommonDivisorOfStrings.java)\
 [1129. Shortest Path with Alternating Colors](src/leetcode/_1129/ShortestPathWithAlternatingColors.java)\
 [1137. N-th Tribonacci Number](src/leetcode/_1137/NthTribonacciNumber.java)\
-[1143. Longest Common Subsequence](src/leetcode/_1143/LongestCommonSubsequence.java)\
+
 [1155. Number of Dice Rolls With Target Sum](src/leetcode/_1155/NumberOfDiceRollsWithTargetSum.java)\
 [1162. As Far from Land as Possible](src/leetcode/_1162/AsFarFromLandAsPossible.java)\
 [1207. Unique Number of Occurrences](src/leetcode/_1207/UniqueNumberOfOccurrences.java)\
@@ -202,11 +226,13 @@
 [1466. Reorder Routes to Make All Paths Lead to the City Zero](src/leetcode/_1466/ReorderRoutesToMakeAllPathsLeadToTheCityZero.java )\
 [1470. Shuffle the Array](src/leetcode/_1470/ShuffleTheArray.java)\
 [1472. Design Browser History](src/leetcode/_1472/DesignBrowserHistory.java)\
+
 [1491. Average Salary Excluding the Minimum and Maximum Salary](src/leetcode/_1491/AverageSalaryExcludingtheMinimumandMaximumSalary.java)
 [1519. Number of Nodes in the Sub-Tree With the Same Label](src/leetcode/_1519/NumberOfNodesInTheSubTreeWithTheSameLabel.java)\
 [1523. Count Odd Numbers in an Interval Range](src/leetcode/_1523/CountOddNumbersInanIntervalRange.java)\
 [1539. Kth Missing Positive Number](src/leetcode/_1539/KthMissingPositiveNumber.java)\
 [1544. Make The String Great](src/leetcode/_1544/MakeTheStringGreat.java)\
+[1557. Minimum Number of Vertices to Reach All Nodes](src/leetcode/_1557/MinimumNumberofVerticestoReachAllNodes.java)\
 [1578. Minimum Time to Make Rope Colorful](src/leetcode/_1578/MinimumTimeToMakeRopeColorful.java)\
 [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](src/leetcode/_1579/RemoveMaxNumberofEdgestoKeepGraphFullyTraversable.java)\
 [1626. Best Team With No Conflicts](src/leetcode/_1626/BestTeamWithNoConflicts.java)\
@@ -217,14 +243,18 @@
 [1706. Where Will the Ball Fall](src/leetcode/_1706/WhereWillTheBallFall.java)\
 [1768. Merge Strings Alternately](src/leetcode/_1768/MergeStringsAlternately.java)\
 [1770. Maximum Score from Performing Multiplication Operations](src/leetcode/_1770/MaximumScoreFromPerformingMultiplicationOperations.java)\
+[1822. Sign of the Product of an Array](src/leetcode/_1822/SignoftheProductofanArray.java)\
 [1833. Maximum Ice Cream Bars](src/leetcode/_1833/MaximumIceCreamBars.java)
 [1834. Single-Threaded CPU](src/leetcode/_1834/SingleThreadedCPU.java)
 [1926. Nearest Exit from Entrance in Maze](src/leetcode/_1926/NearestExitFromEntranceInMaze.java)\
 [1962. Remove Stones to Minimize the Total](src/leetcode/_1962/RemoveStonesToMinimizeTheTotal.java)\
+[1964. Find the Longest Valid Obstacle Course at Each Position](src/leetcode/_1964/FindtheLongestValidObstacleCourseatEachPosition.java)\
 [1996. The Number of Weak Characters in the Game](src/leetcode/_1996/TheNumberOfWeakCharactersInTheGame.java)\
 [2007. Find Original Array From Doubled Array](src/leetcode/_2007/FindOriginalArrayFromDoubledArray.java)\
 [2095. Delete the Middle Node of a Linked List](src/leetcode/_2095/DeleteTheMiddleNodeOfALinkedList.java)\
 [2136. Earliest Possible Day of Full Bloom](src/leetcode/_2136/EarliestPossibleDayOfFullBloom.java)\
+[2140. Solving Questions With Brainpower](src/leetcode/_2140/SolvingQuestionsWithBrainpower.java)\
+[2215. Find the Difference of Two Arrays](src/leetcode/_2215/FindtheDifferenceofTwoArrays.java)\
 [2218. Maximum Value of K Coins From Piles](src/leetcode/_2218/MaximumValueofKCoinsFromPiles.java)\
 [2246. Longest Path With Different Adjacent Characters](src/leetcode/_2246/LongestPathWithDifferentAdjacentCharacters.java)\
 [2256. Minimum Average Difference](src/leetcode/_2256/MinimumAverageDifference.java)\
@@ -240,6 +270,7 @@
 [2421. Number of Good Paths](src/leetcode/_2421/NumberOfGoodPaths.java)\
 [2439. Minimize Maximum of Array](src/leetcode/_2439/MinimizeMaximumOfArray.java)\
 [2444. Count Subarrays With Fixed Bounds](src/leetcode/_2444/CountSubarraysWithFixedBounds.java)\
+[2466. Count Ways To Build Good Strings](src/leetcode/_2466/CountWaysToBuildGoodStrings.java)\
 [2477. Minimum Fuel Cost to Report to the Capital](src/leetcode/_2477/MinimumFuelCostToReportToTheCapital.java)\
 [2492. Minimum Score of a Path Between Two Cities](src/leetcode/_2492/MinimumScoreOfaPathBetweenTwoCities.java)\
 [TODO]

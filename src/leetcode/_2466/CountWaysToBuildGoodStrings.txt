@@ -1,0 +1,11 @@
+1. Создать переменную int[] dp длины high + 1, dp[0] = 1;
+2. Создать переменную int mod = 1_000_000_007
+3. итерируемся от end = 1; end <= high
+4. если end >= zero, то dp[end] += dp[end-zero]
+5. если end >= one, то dp[end] += dp[end-one]
+6. dp[end] %= mod;
+7. После цикла создаем переменную int asnwer = 0;
+8. итерируемся от  i = low до i <= high
+9. answer += dp[i]
+10. answer %= mod;
+11. вернуть asnwer;

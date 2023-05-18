@@ -6,18 +6,25 @@ import java.util.Map;
 public class MinimumSizeSubarraySum {
 
     public int minSubArrayLen(int target, int[] nums) {
-       int n = nums.length;
-       int ans = Integer.MAX_VALUE;
-       int left = 0;
-       int sum = 0;
-        for (int i = 0; i < n; i++) {
-            sum += nums[i];
-            while (sum >= target){
-                ans = Math.min(ans, i+1-left);
-                sum -= nums[left++];
+        int windowSize = Integer.MAX_VALUE;
+        int currArrSize = 0;
+        int start = 0;
+        int totalSum = 0;
+        for (int end = 0; end < nums.length; end++) {
+            totalSum += nums[end];
+            while (totalSum >= target){
+                currArrSize = (end+1)-start;
+                windowSize = Math.min(windowSize, currArrSize);
+                totalSum -= nums[start];
+                start++;
             }
         }
-        return (ans != Integer.MAX_VALUE) ? ans : 0;
+        if(windowSize != Integer.MAX_VALUE){
+            return windowSize;
+        }
+        else {
+            return 0;
+        }
     }
 
     public static void main(String[] args) {

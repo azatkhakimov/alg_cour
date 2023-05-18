@@ -31,52 +31,44 @@ public class PalindromeLinkedList {
         return new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, null))));
     }
 
-    public boolean isPalindrome(ListNode head){
-        if(head == null){
+    public boolean isPalindrome(ListNode head) {
+        if (head == null) {
             return true;
         }
-        //Find the end of first half and reverse second half
-        ListNode firstHalfEnd = endOfFirstHalf(head);
-        ListNode secondHalfStart = reverseList(firstHalfEnd.next);
-
-        boolean result = true;
-
-        ListNode p1 = head;
-        ListNode p2 = secondHalfStart;
-        while (result && p2 != null){
-            if(p1.val != p2.val){
-                result = false;
-            }
-            p1 = p1.next;
-            p2 = p2.next;
-
-        }
-        //Restore the list and return result;
-        firstHalfEnd.next = reverseList(secondHalfStart);
-        return result;
-
-    }
-
-    private ListNode reverseList(ListNode head) {
-        ListNode prev = null;
-        ListNode curr = head;
-        while (curr != null){
-            ListNode nextNode = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = nextNode;
-        }
-        return prev;
-    }
-
-    private ListNode endOfFirstHalf(ListNode head) {
-        ListNode fast = head;
         ListNode slow = head;
-        while (fast.next != null && fast.next.next != null){
-            fast = fast.next.next;
+        ListNode fast = head;
+        while (fast != null && fast.next != null) {
             slow = slow.next;
+            fast = fast.next.next;
         }
-        return slow;
+
+        ListNode reverted = revert(slow);
+        if(compareTwoHalves(head, reverted)){
+            return true;
+        }
+        return false;
+    }
+
+    private boolean compareTwoHalves(ListNode node1, ListNode node2) {
+        while (node1 != null && node2 != null){
+            if(node1.val != node2.val){
+                return false;
+            }
+            node1 = node1.next;
+            node2 = node2.next;
+        }
+        return true;
+    }
+
+    private ListNode revert(ListNode node) {
+        ListNode reverted = null;
+        while (node != null){
+            ListNode next = node.next;
+            node.next = reverted;
+            reverted = node;
+            node = next;
+        }
+        return reverted;
     }
 
     public static void main(String[] args) {

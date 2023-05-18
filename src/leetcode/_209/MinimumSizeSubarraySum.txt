@@ -1,0 +1,9 @@
+1. создать переменные windowSize = Int.MAX, int currSubArrSize = 0, int start = 0, int totalSum = 0;
+2. Итерируемся по всем элементам входящего массива, в цикле переменная называетс end
+3. Суммируем текущий элемент массива в totalSum
+4. Пока (while) totalSum >= target
+5. Вычисляем текущий размер окна currSubArrSize = (end+1) - start
+6. Вычисляем наименьший размер окна windowSize  = Math.min(windowSize, currSubArrSize)
+7. Уменьшаем размер окна вычитанием из суммы элемента слева total -= arr[start]
+8. Уменьшам непосредственно сам размер окна start++;
+9. За пределами всех циклов проверяем, если windowSize != Int.MaxVal, то вернуть ответ windowSize, иначе 0
