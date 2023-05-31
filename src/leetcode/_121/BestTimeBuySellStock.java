@@ -13,17 +13,12 @@ Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-
 Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.*/
 public class BestTimeBuySellStock {
     public int maxProfit(int[] prices) {
-        int buy =  0;
-        int sell = 1;
         int maxProfit = 0;
-        while (sell < prices.length){
-            int currentProfit = prices[sell] - prices[buy];
-            if(prices[buy] < prices[sell]){
-                maxProfit = Math.max(maxProfit, currentProfit);
-            }else {
-                buy = sell;
-            }
-            sell++;
+        int minCurr = prices[0];
+        for (int i = 1; i < prices.length; i++) {
+            int price = prices[i];
+            maxProfit = Math.max(maxProfit, price - minCurr);
+            minCurr = Math.min(minCurr, price);
         }
         return maxProfit;
     }

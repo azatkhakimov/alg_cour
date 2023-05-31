@@ -1,7 +1,11 @@
 # Leetcode
 
 # Binary Search
+[268. Missing Number](src/leetcode/_268/MissingNumber.java)\
 [1498. Number of Subsequences That Satisfy the Given Sum Condition](src/leetcode/_1498/binary_search)\
+
+# Bit Manipulation
+[136. Single Number](src/leetcode/_136/SingleNumber.java)\
 
 # Two Pointers
 [1498. Number of Subsequences That Satisfy the Given Sum Condition](src/leetcode/_1498/two_pointers/NumberofSubsequencesThatSatisfytheGivenSumCondition.java)\
@@ -20,6 +24,14 @@
 
 # Linked List
 [24. Swap Nodes in Pairs](src/leetcode/_24/SwapNodePairs.java)\
+
+
+# BFS
+[785. Is Graph Bipartite?](src/leetcode/_785/IsGraphBipartite.java)\
+
+# Top-down Dynamic Programming
+[1547. Minimum 
+Cost to Cut a Stick](src/leetcode/_1547/MinimumCosttoCutaStick.java)
 
 
 [6. Zigzag Conversion](src/leetcode/_6/ZigzagConversion.java)\
@@ -90,6 +102,7 @@
 [198. House Robber](src/leetcode/_198/HouseRobber.java)\
 [200. Number of Islands](src/leetcode/_200/NumberOfIslands.java)\
 [202. Happy Number](src/leetcode/_202/HappyNumber.java)
+[206. Reverse Linked List](src/leetcode/_206/ReverseLinkedList.java)\
 [208. Implement Trie (Prefix Tree)](src/leetcode/_208/ImplementTriePrefixTree.java)\
 
 [211. Design Add and Search Words Data Structure](src/leetcode/_211/DesignAddAndSearchWordsDataStructure.java)\
@@ -118,6 +131,7 @@
 [378. Kth Smallest Element in a Sorted Matrix](src/leetcode/_378/KthSmallestElementInASortedMatrix.java)\
 [380. Insert Delete GetRandom O(1)](src/leetcode/_380/InsertDeleteGetRandom.java)\
 [383. Ransom Note](src/leetcode/_383/RansomNote.java)\
+[399. Evaluate Division](src/leetcode/_399/EvaluateDivision.java)\
 [416. Partition Equal Subset Sum](src/leetcode/_416/PartitionEqualSubsetSum.java)\
 [417. Pacific Atlantic Water Flow](src/leetcode/_417/PacificAtlanticWaterFlow.java)\
 [429. N-ary Tree Level Order Traversal](src/leetcode/_429/NaryTreeLevelOrderTraversal.java)\
@@ -147,6 +161,7 @@
 [673. Number of Longest Increasing Subsequence](src/leetcode/_673/NumberOfLongestIncreasingSubsequence.java)\
 [692. Top K Frequent Words](src/leetcode/_692/TopKFrequentWords.java)\
 [698. Partition to K Equal Sum Subsets](src/leetcode/_698/PartitionToKEqualSumSubsets.java)\
+[703. Kth Largest Element in a Stream](src/leetcode/_703/KthLargestElementinaStream.java)\
 [704. Binary Search](src/leetcode/_704/BinarySearch.java)\
 [729. My Calendar I](src/leetcode/design/_729/MyCalendarI.java)\
 [766. Toeplitz Matrix](src/leetcode/_766/ToeplitzMatrix.java)\
@@ -218,6 +233,7 @@
 [1372. Longest ZigZag Path in a Binary Tree](src/leetcode/_1372/LongestZigZagPathinaBinaryTree.java)\
 [1383. Maximum Performance of a Team](src/leetcode/_1383/MaximumPerformanceOfaTeam.java)\
 [1402. Reducing Dishes](src/leetcode/_1402/ReducingDishes.java)\
+[1406. Stone Game III](src/leetcode/_1406/StoneGameIII.java)\
 [1416. Restore The Array](src/leetcode/_1416/RestoreTheArray.java)\
 [1431. Kids With the Greatest Number of Candies](src/leetcode/_1431/KidsWiththeGreatestNumberofCandies.java)\
 [1444. Number of Ways of Cutting a Pizza](src/leetcode/_1444/NumberOfWaysOfCuttingaPizza.java)\
@@ -273,4 +289,5 @@
 [2466. Count Ways To Build Good Strings](src/leetcode/_2466/CountWaysToBuildGoodStrings.java)\
 [2477. Minimum Fuel Cost to Report to the Capital](src/leetcode/_2477/MinimumFuelCostToReportToTheCapital.java)\
 [2492. Minimum Score of a Path Between Two Cities](src/leetcode/_2492/MinimumScoreOfaPathBetweenTwoCities.java)\
+[2542. Maximum Subsequence Score](src/leetcode/_2542/MaximumSubsequenceScore.java)\
 [TODO]
