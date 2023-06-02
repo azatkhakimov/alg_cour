@@ -1,5 +1,7 @@
 package leetcode._1448;
 
+import leetcode.common.models.TreeNode;
+
 public class CountGoodNodesInBinaryTree {
     public int goodNodes(TreeNode root) {
         return dfs(root, root.val);
@@ -19,24 +21,5 @@ public class CountGoodNodesInBinaryTree {
 
     public static void main(String[] args) {
         CountGoodNodesInBinaryTree countGoodNodesInBinaryTree = new CountGoodNodesInBinaryTree();
-    }
-}
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
     }
 }

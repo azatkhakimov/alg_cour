@@ -1,5 +1,7 @@
 package leetcode._652;
 
+import leetcode.common.models.TreeNode;
+
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;

@@ -1,5 +1,7 @@
 package leetcode._1339;
 
+import leetcode.common.models.TreeNode;
+
 public class MaximumProductOfSplittedBinaryTree {
     long ans = 0;
     long totalSum = 0;
@@ -23,15 +25,3 @@ public class MaximumProductOfSplittedBinaryTree {
     }
 }
 
-class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode() {}
-      TreeNode(int val) { this.val = val; }
-      TreeNode(int val, TreeNode left, TreeNode right) {
-          this.val = val;
-          this.left = left;
-          this.right = right;
-      }
-  }

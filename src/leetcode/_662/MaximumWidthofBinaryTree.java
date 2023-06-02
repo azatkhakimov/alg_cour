@@ -1,5 +1,7 @@
 package leetcode._662;
 
+import leetcode.common.models.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Objects;
 import java.util.Queue;
@@ -51,23 +53,4 @@ public class MaximumWidthofBinaryTree {
         MaximumWidthofBinaryTree m = new MaximumWidthofBinaryTree();
     }
 
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 }

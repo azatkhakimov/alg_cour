@@ -1,6 +1,6 @@
 package leetcode._783;
 
-import leetcode._104.TreeNode;
+import leetcode.common.models.TreeNode;
 
 public class MinimumDistanceBetweenBSTNodes {
     int minDistance = Integer.MAX_VALUE;

@@ -1,7 +1,6 @@
 package leetcode._106;
 
-import com.sun.source.tree.Tree;
-import leetcode.tree.TreeNode;
+import leetcode.common.models.TreeNode;
 
 public class ConstructBinaryTreefromInorderandPostorderTraversal {
      private int postIndex = 0;

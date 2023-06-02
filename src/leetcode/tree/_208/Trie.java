@@ -1,7 +1,5 @@
 package leetcode.tree._208;
 
-import leetcode.tree.TreeNode;
-
 public class Trie {
     private TrieNode root;
 

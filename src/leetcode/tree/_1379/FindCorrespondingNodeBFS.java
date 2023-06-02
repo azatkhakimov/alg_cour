@@ -1,7 +1,6 @@
 package leetcode.tree._1379;
 
-import com.sun.source.tree.Tree;
-import leetcode.tree.TreeNode;
+import leetcode.common.models.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

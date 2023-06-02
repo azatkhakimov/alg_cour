@@ -7,6 +7,9 @@
 # Bit Manipulation
 [136. Single Number](src/leetcode/_136/SingleNumber.java)\
 
+# DFS
+[2101. Detonate the Maximum Bombs](src/leetcode/_2101/DetonatetheMaximumBombs.java)\
+
 # Two Pointers
 [1498. Number of Subsequences That Satisfy the Given Sum Condition](src/leetcode/_1498/two_pointers/NumberofSubsequencesThatSatisfytheGivenSumCondition.java)\
 
@@ -33,6 +36,10 @@
 [1547. Minimum 
 Cost to Cut a Stick](src/leetcode/_1547/MinimumCosttoCutaStick.java)
 
+# Tree
+[94. Binary Tree Inorder Traversal](src/leetcode/_94/BinaryTreeInorderTraversal.java)\
+[144. Binary Tree Preorder Traversal](src/leetcode/_144/BinaryTreePreorderTraversal.java)\
+[]
 
 [6. Zigzag Conversion](src/leetcode/_6/ZigzagConversion.java)\
 [12. Integer to Roman](src/leetcode/_12/IntegerToRoman.java)\

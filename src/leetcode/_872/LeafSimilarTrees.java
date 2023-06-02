@@ -1,5 +1,7 @@
 package leetcode._872;
 
+import leetcode.common.models.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 //https://www.youtube.com/watch?v=uL8YJsJ_3cY
@@ -30,21 +32,3 @@ public class LeafSimilarTrees {
     }
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}

@@ -1,7 +1,5 @@
 package leetcode._208;
 
-import leetcode._104.TreeNode;
-
 public class TrieNode {
     private TrieNode[] links;
     private final int R = 26;

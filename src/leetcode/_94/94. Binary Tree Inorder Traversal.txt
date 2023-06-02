@@ -1,0 +1,4 @@
+recursive
+1) traverse the left subtree i.e call inorder (left -> subtree)
+2) visit the root
+3) traverse the right subtree

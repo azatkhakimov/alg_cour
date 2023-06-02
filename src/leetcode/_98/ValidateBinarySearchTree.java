@@ -1,7 +1,7 @@
 package leetcode._98;
 
 
-import leetcode.tree.TreeNode;
+import leetcode.common.models.TreeNode;
 
 public class ValidateBinarySearchTree {
     private Integer prev;

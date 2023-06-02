@@ -1,5 +1,7 @@
 package leetcode._987;
 
+import leetcode.common.models.TreeNode;
+
 import java.util.*;
 
 public class VerticalOrderTraversalOfaBinaryTree {
@@ -39,21 +41,3 @@ public class VerticalOrderTraversalOfaBinaryTree {
     }
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}

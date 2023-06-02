@@ -1,5 +1,7 @@
 package leetcode._958;
 
+import leetcode.common.models.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -33,21 +35,3 @@ public class CheckCompletenessOfABinaryTree {
     }
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}

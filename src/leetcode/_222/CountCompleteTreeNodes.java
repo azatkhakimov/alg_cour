@@ -1,5 +1,7 @@
 package leetcode._222;
 
+import leetcode.common.models.TreeNode;
+
 public class CountCompleteTreeNodes {
     public int countNodes(TreeNode root) {
         int nodes = 0;
@@ -28,22 +30,4 @@ public class CountCompleteTreeNodes {
         System.out.println(5 << 2);
     }
 
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 }

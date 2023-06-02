@@ -1,5 +1,7 @@
 package leetcode.tree._968;
 
+import leetcode.common.models.TreeNode;
+
 public class BinaryTreeCameras {
     public int minCameraCover(TreeNode root) {
         int [] ans = solve(root);
@@ -22,17 +24,4 @@ public class BinaryTreeCameras {
 
         return new int[]{d0, d1, d2};
     }
-
-    public class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode() {}
-      TreeNode(int val) { this.val = val; }
-      TreeNode(int val, TreeNode left, TreeNode right) {
-          this.val = val;
-          this.left = left;
-          this.right = right;
-      }
-  }
 }

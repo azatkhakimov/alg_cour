@@ -1,6 +1,6 @@
 package leetcode._235;
 
-import leetcode.tree.TreeNode;
+import leetcode.common.models.TreeNode;
 
 public class LowestCommonAncestorBinarySearchTree {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {

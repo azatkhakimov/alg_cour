@@ -1,0 +1,7 @@
+1. create a graph? to check if vertices can be reached use Euclidean distance between their centers and the radius of bomb 1.
+long distance = (long)(xi-xj)*(xi-xj)+(long)(yi-yj)*(yi-yj);
+                long rad = (long) ri * ri;
+                if(distance <= rad){
+                    graph.computeIfAbsent(i, k-> new ArrayList<>()).add(j);
+                }
+2. use dfs to travel

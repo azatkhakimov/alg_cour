@@ -1,5 +1,7 @@
 package leetcode._101;
 
+import leetcode.common.models.TreeNode;
+
 public class SymmetricTree {
     public boolean isSymmetric(TreeNode root) {
         if(root == null){
@@ -19,21 +21,3 @@ public class SymmetricTree {
     }
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}

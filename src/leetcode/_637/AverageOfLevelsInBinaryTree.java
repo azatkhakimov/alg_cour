@@ -1,5 +1,7 @@
 package leetcode._637;
 
+import leetcode.common.models.TreeNode;
+
 import java.util.*;
 
 public class AverageOfLevelsInBinaryTree {
@@ -34,24 +36,5 @@ public class AverageOfLevelsInBinaryTree {
     public static void main(String[] args) {
         AverageOfLevelsInBinaryTree averageOfLevelsInBinaryTree = new AverageOfLevelsInBinaryTree();
         System.out.println(averageOfLevelsInBinaryTree.averageOfLevels(null));
-    }
-}
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
     }
 }

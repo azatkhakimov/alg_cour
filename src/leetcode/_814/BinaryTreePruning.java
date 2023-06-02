@@ -1,5 +1,7 @@
 package leetcode._814;
 
+import leetcode.common.models.TreeNode;
+
 public class BinaryTreePruning {
     public TreeNode pruneTree(TreeNode root) {
         return containsOne(root) ? root : null;
@@ -26,21 +28,3 @@ public class BinaryTreePruning {
     }
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}

@@ -1,5 +1,7 @@
 package leetcode._1026;
 
+import leetcode.common.models.TreeNode;
+
 public class MaximumDifferenceBetweenNodeAndAncestor {
     public int maxAncestorDiff(TreeNode root) {
         if(root == null){
@@ -25,21 +27,3 @@ public class MaximumDifferenceBetweenNodeAndAncestor {
     }
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}

@@ -1,5 +1,7 @@
 package leetcode._109;
 
+import leetcode.common.models.TreeNode;
+
 public class ConvertSortedListToBinarySearchTree {
     public TreeNode sortedListToBST(ListNode head) {
         if(head == null){

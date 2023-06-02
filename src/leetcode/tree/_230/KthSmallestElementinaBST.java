@@ -1,6 +1,6 @@
 package leetcode.tree._230;
 
-import leetcode.tree.TreeNode;
+import leetcode.common.models.TreeNode;
 
 import java.util.LinkedList;
 

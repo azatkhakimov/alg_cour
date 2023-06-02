@@ -1,5 +1,7 @@
 package leetcode._1372;
 
+import leetcode.common.models.TreeNode;
+
 public class LongestZigZagPathinaBinaryTree {
     int pathLength =  0;
     public int longestZigZag(TreeNode root) {
@@ -25,22 +27,4 @@ public class LongestZigZagPathinaBinaryTree {
 
     }
 
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 }

@@ -1,5 +1,7 @@
 package leetcode._129;
 
+import leetcode.common.models.TreeNode;
+
 public class SumRootToLeafNumbers {
 
     public int sumNumbers(TreeNode root) {
@@ -13,21 +15,3 @@ public class SumRootToLeafNumbers {
     }
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}
