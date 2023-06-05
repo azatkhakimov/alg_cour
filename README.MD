@@ -6,8 +6,10 @@
 
 # Bit Manipulation
 [136. Single Number](src/leetcode/_136/SingleNumber.java)\
+[338. Counting Bits](src/leetcode/_338/CountingBits.java)\
 
 # DFS
+[547. Number of Provinces](src/leetcode/_547/NumberofProvinces.java)\
 [2101. Detonate the Maximum Bombs](src/leetcode/_2101/DetonatetheMaximumBombs.java)\
 
 # Two Pointers
@@ -27,7 +29,8 @@
 
 # Linked List
 [24. Swap Nodes in Pairs](src/leetcode/_24/SwapNodePairs.java)\
-
+## Fast And Slow pointers
+[141. Linked List Cycle](src/leetcode/_141/LinkedListCycle.java)\
 
 # BFS
 [785. Is Graph Bipartite?](src/leetcode/_785/IsGraphBipartite.java)\
