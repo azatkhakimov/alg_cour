@@ -1,5 +1,6 @@
 package leetcode._109;
 
+import leetcode.common.models.ListNode;
 import leetcode.common.models.TreeNode;
 
 public class ConvertSortedListToBinarySearchTree {

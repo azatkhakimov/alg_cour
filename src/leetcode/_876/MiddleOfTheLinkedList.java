@@ -1,5 +1,7 @@
 package leetcode._876;
 
+import leetcode.common.models.ListNode;
+
 public class MiddleOfTheLinkedList {
     public ListNode middleNode(ListNode head) {
         ListNode fast = head;
@@ -17,19 +19,3 @@ public class MiddleOfTheLinkedList {
     }
 }
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}

@@ -1,5 +1,7 @@
 package leetcode._382;
 
+import leetcode.common.models.ListNode;
+
 import java.util.List;
 import java.util.Map;
 
@@ -21,22 +23,5 @@ class Solution {
             curr = curr.next;
         }
         return chosenValue;
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
     }
 }

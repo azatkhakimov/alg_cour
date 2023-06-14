@@ -12,7 +12,7 @@ public class FindSmallestLetterGreaterThanTarget {
                 right = mid - 1;
             }
         }
-        return letters[left % letters.length];
+        return letters.length == left ? letters[0] : letters[left];
     }
 
     public static void main(String[] args) {

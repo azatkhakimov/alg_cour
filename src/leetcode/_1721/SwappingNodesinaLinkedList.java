@@ -1,5 +1,7 @@
 package leetcode._1721;
 
+import leetcode.common.models.ListNode;
+
 public class SwappingNodesinaLinkedList {
 
 
@@ -29,12 +31,4 @@ public class SwappingNodesinaLinkedList {
         var s = new SwappingNodesinaLinkedList();
     }
 
-
- class ListNode {
-    int val;
-      ListNode next;
-      ListNode() {}
-      ListNode(int val) { this.val = val; }
-      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-  }
 }

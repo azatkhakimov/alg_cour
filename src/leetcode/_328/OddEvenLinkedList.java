@@ -1,5 +1,7 @@
 package leetcode._328;
 
+import leetcode.common.models.ListNode;
+
 public class OddEvenLinkedList {
     public ListNode oddEvenList(ListNode head) {
         if (head == null) {
@@ -27,28 +29,4 @@ public class OddEvenLinkedList {
 
 }
 
-class ListNode {
-    public int val;
-    public ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-
-    @Override
-    public String toString() {
-        return "ListNode{" +
-                "val=" + val +
-                ", next=" + next +
-                '}';
-    }
-}
 

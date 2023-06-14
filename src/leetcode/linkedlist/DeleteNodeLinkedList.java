@@ -7,15 +7,9 @@ Output: [4,1,9]
 Explanation: You are given the second node with value 5, the linked list should become 4 -> 1 -> 9 after calling your function.
 */
 
-public class DeleteNodeLinkedList {
-    public class ListNode {
-        int val;
-        ListNode next;
+import leetcode.common.models.ListNode;
 
-        ListNode(int x) {
-            val = x;
-        }
-    }
+public class DeleteNodeLinkedList {
 
     public void deleteNode(ListNode node) {
         node.val = node.next.val;

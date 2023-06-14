@@ -1,27 +1,9 @@
 package leetcode._234;
 
-import java.util.List;
+import leetcode.common.models.ListNode;
+
 
 public class PalindromeLinkedList {
-    private class ListNode {
-        public ListNode() {
-        }
-
-        public ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-        int val;
-        ListNode next;
-
-        @Override
-        public String toString() {
-            return "ListNode{" +
-                    "val=" + val +
-                    ", next=" + next +
-                    '}';
-        }
-    }
 
     public ListNode initOne(){
         return new ListNode(1, new ListNode(2, new ListNode(2, new ListNode(1, null))));

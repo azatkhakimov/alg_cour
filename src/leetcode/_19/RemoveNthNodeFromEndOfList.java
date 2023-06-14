@@ -1,5 +1,7 @@
 package leetcode._19;
 
+import leetcode.common.models.ListNode;
+
 import java.util.List;
 
 public class RemoveNthNodeFromEndOfList {
@@ -20,22 +22,5 @@ public class RemoveNthNodeFromEndOfList {
 
     public static void main(String[] args) {
 
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
     }
 }

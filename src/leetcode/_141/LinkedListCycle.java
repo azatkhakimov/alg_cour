@@ -1,5 +1,7 @@
 package leetcode._141;
 
+import leetcode.common.models.ListNode;
+
 public class LinkedListCycle {
     public boolean hasCycle(ListNode head) {
         ListNode slow = head;
@@ -19,13 +21,4 @@ public class LinkedListCycle {
 
     }
 
-    class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
 }

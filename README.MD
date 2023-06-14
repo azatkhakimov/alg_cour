@@ -2,11 +2,14 @@
 
 # Binary Search
 [268. Missing Number](src/leetcode/_268/MissingNumber.java)\
+[744. Find Smallest Letter Greater Than Target](src/leetcode/array/_744/FindSmallestLetterGreaterThanTarget.java)\
+[1351. Count Negative Numbers in a Sorted Matrix](src/leetcode/_1351/CountNegativeNumbersinaSortedMatrix.java)\
 [1498. Number of Subsequences That Satisfy the Given Sum Condition](src/leetcode/_1498/binary_search)\
 
 # Bit Manipulation
 [136. Single Number](src/leetcode/_136/SingleNumber.java)\
 [338. Counting Bits](src/leetcode/_338/CountingBits.java)\
+[1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/_1318/MinimumFlipstoMakeaORbEqualtoc.java)\
 
 # DFS
 [547. Number of Provinces](src/leetcode/_547/NumberofProvinces.java)\
@@ -29,6 +32,10 @@
 
 # Linked List
 [24. Swap Nodes in Pairs](src/leetcode/_24/SwapNodePairs.java)\
+[203. Remove Linked List Elements](src/leetcode/_203/RemoveLinkedListElements.java)
+[234. Palindrome Linked List](src/leetcode/_234/PalindromeLinkedList.java)\
+
+[876. Middle of the Linked List](src/leetcode/_876/MiddleOfTheLinkedList.java)\
 ## Fast And Slow pointers
 [141. Linked List Cycle](src/leetcode/_141/LinkedListCycle.java)\
 

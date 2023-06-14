@@ -1,5 +1,7 @@
 package leetcode._142;
 
+import leetcode.common.models.ListNode;
+
 public class LinkedListCycleII {
     public ListNode detectCycle(ListNode head) {
         if (head == null) {
@@ -24,15 +26,5 @@ public class LinkedListCycleII {
 
     public static void main(String[] args) {
 
-    }
-
-    class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
     }
 }

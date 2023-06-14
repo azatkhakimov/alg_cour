@@ -1,7 +1,5 @@
 package leetcode._1857;
 
-import leetcode._109.ListNode;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

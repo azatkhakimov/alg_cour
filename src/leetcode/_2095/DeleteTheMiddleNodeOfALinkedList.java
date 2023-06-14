@@ -1,5 +1,7 @@
 package leetcode._2095;
 
+import leetcode.common.models.ListNode;
+
 public class DeleteTheMiddleNodeOfALinkedList {
     public ListNode deleteMiddle(ListNode head) {
         ListNode listNode = new ListNode();
@@ -10,22 +12,5 @@ public class DeleteTheMiddleNodeOfALinkedList {
     public static void main(String[] args) {
         DeleteTheMiddleNodeOfALinkedList deleteTheMiddleNodeOfALinkedList = new DeleteTheMiddleNodeOfALinkedList();
         System.out.println(deleteTheMiddleNodeOfALinkedList.deleteMiddle(null));
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
     }
 }

@@ -1,5 +1,7 @@
 package leetcode.recursive;
 
+import leetcode.common.models.ListNode;
+
 import java.util.concurrent.atomic.AtomicLong;
 
 /*206. Reverse Linked List

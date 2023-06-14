@@ -1,5 +1,7 @@
 package leetcode.recursive;
 
+import leetcode.common.models.ListNode;
+
 /*
  * Given a linked list, swap every two adjacent nodes and return its head.
  * You must solve the problem without modifying the values in the list's nodes

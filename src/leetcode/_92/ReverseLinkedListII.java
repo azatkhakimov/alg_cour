@@ -1,5 +1,7 @@
 package leetcode._92;
 
+import leetcode.common.models.ListNode;
+
 //https://leetcode.com/problems/reverse-linked-list-ii/solution/
 public class ReverseLinkedListII {
     public ListNode reverseBetween(ListNode head, int left, int right) {
@@ -39,19 +41,3 @@ public class ReverseLinkedListII {
     }
 }
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}

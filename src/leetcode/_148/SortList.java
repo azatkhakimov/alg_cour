@@ -1,5 +1,7 @@
 package leetcode._148;
 
+import leetcode.common.models.ListNode;
+
 import java.util.HashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -61,27 +63,3 @@ public class SortList {
     }
 }
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-
-    @Override
-    public String toString() {
-        return "ListNode{" +
-                "val=" + val +
-                ", next=" + next +
-                '}';
-    }
-}

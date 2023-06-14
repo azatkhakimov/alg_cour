@@ -1,5 +1,7 @@
 package leetcode.heap._23;
 
+import leetcode.common.models.ListNode;
+
 import java.util.List;
 import java.util.PriorityQueue;
 
@@ -19,22 +21,5 @@ public class MergekSortedLists {
             head = head.next;
         }
         return dummy.next;
-    }
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 }
