@@ -1,7 +1,15 @@
 # Leetcode
 
+# BFS
+[111. Minimum Depth of Binary Tree](src/leetcode/_111/MinimumDepthofBinaryTreeBFS.java)\
+[637. Average of Levels in Binary Tree](src/leetcode/_637/AverageOfLevelsInBinaryTree.java)\
+[785. Is Graph Bipartite?](src/leetcode/_785/IsGraphBipartite.java)\
+[1161. Maximum Level Sum of a Binary Tree](src/leetcode/_1161/MaximumLevelSumofaBinaryTreeBFS.java)\
+
+
 # Binary Search
 [268. Missing Number](src/leetcode/_268/MissingNumber.java)\
+[704. Binary Search](src/leetcode/_704/BinarySearch.java)\
 [744. Find Smallest Letter Greater Than Target](src/leetcode/array/_744/FindSmallestLetterGreaterThanTarget.java)\
 [1351. Count Negative Numbers in a Sorted Matrix](src/leetcode/_1351/CountNegativeNumbersinaSortedMatrix.java)\
 [1498. Number of Subsequences That Satisfy the Given Sum Condition](src/leetcode/_1498/binary_search)\
@@ -12,7 +20,9 @@
 [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/_1318/MinimumFlipstoMakeaORbEqualtoc.java)\
 
 # DFS
+[111. Minimum Depth of Binary Tree](src/leetcode/_111/MinimumDepthofBinaryTreeDFS.java)\
 [547. Number of Provinces](src/leetcode/_547/NumberofProvinces.java)\
+[1161. Maximum Level Sum of a Binary Tree](src/leetcode/_1161/MaximumLevelSumofaBinaryTreeDFS.java)\
 [2101. Detonate the Maximum Bombs](src/leetcode/_2101/DetonatetheMaximumBombs.java)\
 
 # Two Pointers
@@ -31,7 +41,9 @@
 [2466. Count Ways To Build Good Strings](src/leetcode/_2466/CountWaysToBuildGoodStrings.java)\
 
 # Linked List
+[21. Merge Two Sorted Lists](src/leetcode/_21/MergeTwoSortedLists.java)\
 [24. Swap Nodes in Pairs](src/leetcode/_24/SwapNodePairs.java)\
+[83. Remove Duplicates from Sorted List](src/leetcode/_83/RemoveDuplicatesfromSortedList.java)\
 [203. Remove Linked List Elements](src/leetcode/_203/RemoveLinkedListElements.java)
 [234. Palindrome Linked List](src/leetcode/_234/PalindromeLinkedList.java)\
 
@@ -39,8 +51,6 @@
 ## Fast And Slow pointers
 [141. Linked List Cycle](src/leetcode/_141/LinkedListCycle.java)\
 
-# BFS
-[785. Is Graph Bipartite?](src/leetcode/_785/IsGraphBipartite.java)\
 
 # Top-down Dynamic Programming
 [1547. Minimum 
@@ -49,7 +59,7 @@ Cost to Cut a Stick](src/leetcode/_1547/MinimumCosttoCutaStick.java)
 # Tree
 [94. Binary Tree Inorder Traversal](src/leetcode/_94/BinaryTreeInorderTraversal.java)\
 [144. Binary Tree Preorder Traversal](src/leetcode/_144/BinaryTreePreorderTraversal.java)\
-[]
+
 
 [6. Zigzag Conversion](src/leetcode/_6/ZigzagConversion.java)\
 [12. Integer to Roman](src/leetcode/_12/IntegerToRoman.java)\

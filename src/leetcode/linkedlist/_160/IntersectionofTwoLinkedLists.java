@@ -1,6 +1,6 @@
 package leetcode.linkedlist._160;
 
-import leetcode.recursive.ListNode;
+import leetcode.common.models.ListNode;
 
 import java.util.HashSet;
 import java.util.List;

@@ -5,14 +5,14 @@ import leetcode.common.models.ListNode;
 public class ReorderList {
 
     public void reorderList(ListNode head) {
-        if(head == null || head.next == null){
+        if (head == null || head.next == null) {
             return;
         }
         ListNode l1 = head;
         ListNode slow = head;
         ListNode fast = head;
         ListNode prev = null;
-        while(fast != null && fast.next != null){
+        while (fast != null && fast.next != null) {
             prev = slow;
             slow = slow.next;
             fast = fast.next.next;
@@ -22,10 +22,10 @@ public class ReorderList {
         merge(l1, l2);
     }
 
-    public ListNode reverse(ListNode node){
+    public ListNode reverse(ListNode node) {
         ListNode prev = null;
         ListNode curNode = node;
-        while(curNode != null){
+        while (curNode != null) {
             ListNode nextNode = curNode.next;
             curNode.next = prev;
             prev = curNode;
@@ -34,12 +34,12 @@ public class ReorderList {
         return prev;
     }
 
-    private void merge(ListNode l1, ListNode l2){
-        while(l1 != null){
+    private void merge(ListNode l1, ListNode l2) {
+        while (l1 != null) {
             ListNode l1next = l1.next;
             ListNode l2next = l2.next;
             l1.next = l2;
-            if(l1next == null){
+            if (l1next == null) {
                 break;
             }
             l2.next = l1next;
@@ -54,4 +54,4 @@ public class ReorderList {
         System.out.println(reorderList.reverse(listNode));
     }
 }
-}
+
