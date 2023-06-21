@@ -1,4 +1,4 @@
-package leetcode.array._977;
+package leetcode._977;
 
 import java.util.Arrays;
 
@@ -23,6 +23,5 @@ public class SquaresOfSortedArray {
         SquaresOfSortedArray squaresOfSortedArray = new SquaresOfSortedArray();
         System.out.println(Arrays.toString(squaresOfSortedArray.sortedSquares(new int[]{-4,-1,0,3,10})));//Output: [0,1,9,16,100]
         System.out.println(Arrays.toString(squaresOfSortedArray.sortedSquares(new int[]{-7,-3,2,3,11})));//Output: [4,9,9,49,121]
-
     }
 }

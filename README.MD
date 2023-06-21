@@ -1,6 +1,7 @@
 # Leetcode
 
 # BFS
+[104. Maximum Depth of Binary Tree](src/leetcode/_104/MaximumDepthofBinaryTreeBFS.java)\
 [111. Minimum Depth of Binary Tree](src/leetcode/_111/MinimumDepthofBinaryTreeBFS.java)\
 [637. Average of Levels in Binary Tree](src/leetcode/_637/AverageOfLevelsInBinaryTree.java)\
 [785. Is Graph Bipartite?](src/leetcode/_785/IsGraphBipartite.java)\
@@ -14,6 +15,15 @@
 [1351. Count Negative Numbers in a Sorted Matrix](src/leetcode/_1351/CountNegativeNumbersinaSortedMatrix.java)\
 [1498. Number of Subsequences That Satisfy the Given Sum Condition](src/leetcode/_1498/binary_search)\
 
+
+# Binary Tree
+[100. Same Tree](src/leetcode/_100/SameTree.java)\
+[104. Maximum Depth of Binary Tree](src/leetcode/_104/MaximumDepthofBinaryTree.java)\
+[112. Path Sum](src/leetcode/_112/PathSum.java)\
+[226. Invert Binary Tree](src/leetcode/_226/InvertBinaryTree.java)\
+[543. Diameter of Binary Tree](src/leetcode/_543/DiameterofBinaryTree.java)\
+[617. Merge Two Binary Trees](src/leetcode/_617/MergeTwoBinaryTrees.java)\
+
 # Bit Manipulation
 [136. Single Number](src/leetcode/_136/SingleNumber.java)\
 [338. Counting Bits](src/leetcode/_338/CountingBits.java)\
@@ -22,10 +32,17 @@
 # DFS
 [111. Minimum Depth of Binary Tree](src/leetcode/_111/MinimumDepthofBinaryTreeDFS.java)\
 [547. Number of Provinces](src/leetcode/_547/NumberofProvinces.java)\
+[572. Subtree of Another Tree](src/leetcode/_572/SubtreeOfAnotherTree.java)\
 [1161. Maximum Level Sum of a Binary Tree](src/leetcode/_1161/MaximumLevelSumofaBinaryTreeDFS.java)\
 [2101. Detonate the Maximum Bombs](src/leetcode/_2101/DetonatetheMaximumBombs.java)\
 
+
+# Prefix Sum
+[2448. Minimum Cost to Make Array Equal](src/leetcode/_2448/MinimumCosttoMakeArrayEqual.java)\
+
 # Two Pointers
+[844. Backspace String Compare](src/leetcode/_844/BackspaceStringCompare.java)\
+[977. Squares of a Sorted Array](src/leetcode/_977/SquaresOfSortedArray.java)\
 [1498. Number of Subsequences That Satisfy the Given Sum Condition](src/leetcode/_1498/two_pointers/NumberofSubsequencesThatSatisfytheGivenSumCondition.java)\
 
 
@@ -34,6 +51,8 @@
 [209. Minimum Size Subarray Sum](src/leetcode/_209/MinimumSizeSubarraySum.java)\
 [239. Sliding Window Maxim](src/leetcode/_239/SlidingWindowMaximum.java)\
 [1456. Maximum Number of Vowels in a Substring of Given Length](src/leetcode/_1456/MaximumNumberofVowelsinaSubstringofGivenLength.java)\
+[2090. K Radius Subarray Averages](src/leetcode/_2090/KRadiusSubarrayAverages.java)\
+
     
 # Iterative Dynamic Programming
 [1035. Uncrossed Lines](src/leetcode/_1035/UncrossedLines.java)\
@@ -124,6 +143,7 @@ Cost to Cut a Stick](src/leetcode/_1547/MinimumCosttoCutaStick.java)
 [152. Maximum Product Subarray](src/leetcode/_152/MaximumProductSubarray.java)\
 [153. Find Minimum in Rotated Sorted Array](src/leetcode/_153/FindMinimumRotatedSortedArray.java)\
 [162. Find Peak Element](src/leetcode/_162/FindPeakElement.java)\
+[169. Majority Element](src/leetcode/_169/MajorityElement.java)\
 [187. Repeated DNA Sequences](src/leetcode/_187/RepeatedDNASequences.java)\
 [188. Best Time to Buy and Sell Stock IV](src/leetcode/_188/BestTimeToBuyAndSellStock4.java)\
 [198. House Robber](src/leetcode/_198/HouseRobber.java)\
@@ -294,6 +314,7 @@ Cost to Cut a Stick](src/leetcode/_1547/MinimumCosttoCutaStick.java)
 [1964. Find the Longest Valid Obstacle Course at Each Position](src/leetcode/_1964/FindtheLongestValidObstacleCourseatEachPosition.java)\
 [1996. The Number of Weak Characters in the Game](src/leetcode/_1996/TheNumberOfWeakCharactersInTheGame.java)\
 [2007. Find Original Array From Doubled Array](src/leetcode/_2007/FindOriginalArrayFromDoubledArray.java)\
+[2022. Convert 1D Array Into 2D Array](src/leetcode/_2022/Convert1DArrayInto2DArray.java)\
 [2095. Delete the Middle Node of a Linked List](src/leetcode/_2095/DeleteTheMiddleNodeOfALinkedList.java)\
 [2136. Earliest Possible Day of Full Bloom](src/leetcode/_2136/EarliestPossibleDayOfFullBloom.java)\
 [2140. Solving Questions With Brainpower](src/leetcode/_2140/SolvingQuestionsWithBrainpower.java)\

@@ -1,4 +1,4 @@
-package leetcode.tree._572;
+package leetcode._572;
 
 import leetcode.common.models.TreeNode;
 

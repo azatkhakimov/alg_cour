@@ -1,0 +1,1 @@
+use trick of i/n for row and i%n for column
