@@ -4,6 +4,7 @@
 [104. Maximum Depth of Binary Tree](src/leetcode/_104/MaximumDepthofBinaryTreeBFS.java)\
 [111. Minimum Depth of Binary Tree](src/leetcode/_111/MinimumDepthofBinaryTreeBFS.java)\
 [637. Average of Levels in Binary Tree](src/leetcode/_637/AverageOfLevelsInBinaryTree.java)\
+[784. Letter Case Permutation](src/leetcode/_784/LetterCasePermutationBFS.java)\
 [785. Is Graph Bipartite?](src/leetcode/_785/IsGraphBipartite.java)\
 [1161. Maximum Level Sum of a Binary Tree](src/leetcode/_1161/MaximumLevelSumofaBinaryTreeBFS.java)\
 
@@ -30,11 +31,19 @@
 [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/_1318/MinimumFlipstoMakeaORbEqualtoc.java)\
 
 # DFS
+[79. Word Search](src/leetcode/_79/WordSearch.java)\
 [111. Minimum Depth of Binary Tree](src/leetcode/_111/MinimumDepthofBinaryTreeDFS.java)\
 [547. Number of Provinces](src/leetcode/_547/NumberofProvinces.java)\
 [572. Subtree of Another Tree](src/leetcode/_572/SubtreeOfAnotherTree.java)\
+[784. Letter Case Permutation](src/leetcode/_784/LetterCasePermutationDFS.java)\
 [1161. Maximum Level Sum of a Binary Tree](src/leetcode/_1161/MaximumLevelSumofaBinaryTreeDFS.java)\
 [2101. Detonate the Maximum Bombs](src/leetcode/_2101/DetonatetheMaximumBombs.java)\
+
+
+# Dynamic Programming
+[714. Best Time to Buy and Sell Stock with Transaction Fee](src/leetcode/_714/BestTimetoBuyandSellStockwithTransactionFee.java)\
+[956. Tallest Billboard](src/leetcode/_956/TallestBillboard.java)\
+[1027. Longest Arithmetic Subsequence](src/leetcode/_1027/LongestArithmeticSubsequence.java)\
 
 
 # Prefix Sum
@@ -67,9 +76,10 @@
 [234. Palindrome Linked List](src/leetcode/_234/PalindromeLinkedList.java)\
 
 [876. Middle of the Linked List](src/leetcode/_876/MiddleOfTheLinkedList.java)\
+
 ## Fast And Slow pointers
 [141. Linked List Cycle](src/leetcode/_141/LinkedListCycle.java)\
-
+[287. Find the Duplicate Number](src/leetcode/_287/FindtheDuplicateNumber.java)\
 
 # Top-down Dynamic Programming
 [1547. Minimum 
@@ -99,7 +109,7 @@ Cost to Cut a Stick](src/leetcode/_1547/MinimumCosttoCutaStick.java)
 [47. Permutations II](src/leetcode/_47/PermutationsII.java)\
 [48. Rotate Image](src/leetcode/_48/RotateImage.java)\
 [49. Group Anagrams](src/leetcode/_49/GroupAnagrams.java)\
-[54. Spiral Matrix](src/leetcode/array/matrix/_54/SpiralMatrix.java)\
+[54. Spiral Matrix](src/leetcode/_54/SpiralMatrix.java)\
 [55. Jump Game](src/leetcode/_55/JumpGame.java)\
 [56. Merge Intervals](src/leetcode/_56/MergeIntervals.java)\
 [57. Insert Interval](src/leetcode/_57/InsertInterval.java)\
@@ -110,7 +120,7 @@ Cost to Cut a Stick](src/leetcode/_1547/MinimumCosttoCutaStick.java)
 [67. Add Binary](src/leetcode/_67/AddBinary.java)\
 [70. Climbing Stairs](src/leetcode/_70/ClimbingStairs.java)\
 [71. Simplify Path](src/leetcode/_71/SimplifyPath.java)\
-[73. Set Matrix Zeroes](src/leetcode/array/matrix/SetMatrixZeroes.java)\
+[73. Set Matrix Zeroes](src/leetcode/_73/SetMatrixZeroes.java)\
 [74. Search a 2D Matrix](src/leetcode/_74/SearchA2DMatrix.java)\
 [76. Minimum Window Substring](src/leetcode/_76/MinimumWindowSubstring.java)\
 [77. Combinations](src/leetcode/_77/Combinations.java)\
@@ -213,7 +223,7 @@ Cost to Cut a Stick](src/leetcode/_1547/MinimumCosttoCutaStick.java)
 [729. My Calendar I](src/leetcode/design/_729/MyCalendarI.java)\
 [766. Toeplitz Matrix](src/leetcode/_766/ToeplitzMatrix.java)\
 [783. Minimum Distance Between BST Nodes](src/leetcode/_783/MinimumDistanceBetweenBSTNodes.java)\
-[784. Letter Case Permutation](src/leetcode/string/_784/LetterCasePermutation.java)\
+[784. Letter Case Permutation](src/leetcode/_784/LetterCasePermutation.java)\
 [787. Cheapest Flights Within K Stops](src/leetcode/_787/CheapestFlightsWithinKStops.java)\
 [790. Domino and Tromino Tiling](src/leetcode/_790/DominoAndTrominoTiling.java)\
 [797. All Paths From Source to Target](src/leetcode/_797/AllPathsFromSourceToTarget.java)\

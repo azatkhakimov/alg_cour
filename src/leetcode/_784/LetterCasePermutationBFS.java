@@ -1,10 +1,10 @@
-package leetcode.string._784;
+package leetcode._784;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class LetterCasePermutation {
+public class LetterCasePermutationBFS {
     public List<String> letterCasePermutation(String s) {
         if (s == null){
             return new LinkedList<>();
@@ -32,7 +32,7 @@ public class LetterCasePermutation {
     }
 
     public static void main(String[] args) {
-        LetterCasePermutation letterCasePermutation = new LetterCasePermutation();
+        LetterCasePermutationBFS letterCasePermutation = new LetterCasePermutationBFS();
         System.out.println(letterCasePermutation.letterCasePermutation( "a1b2"));//["a1b2","a1B2","A1b2","A1B2"]
         System.out.println(letterCasePermutation.letterCasePermutation("3z4"));//Output: ["3z4","3Z4"]
     }

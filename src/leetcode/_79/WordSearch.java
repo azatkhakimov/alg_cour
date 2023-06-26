@@ -28,4 +28,9 @@ public class WordSearch {
         board[i][j] = temp;
         return found;
     }
+
+    public static void main(String[] args) {
+        var w = new WordSearch();
+        //System.out.println(w.dfs());
+    }
 }

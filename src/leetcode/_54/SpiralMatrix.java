@@ -1,4 +1,4 @@
-package leetcode.array.matrix._54;
+package leetcode._54;
 
 import java.util.ArrayList;
 import java.util.Arrays;
