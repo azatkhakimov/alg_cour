@@ -1,5 +1,14 @@
 # Leetcode
 
+# Backtracking
+[46. Permutations](src/leetcode/_46/Permutations.java)\
+[47. Permutations II](src/leetcode/_47/PermutationsII.java)
+[78. Subsets](src/leetcode/_78/Subsets.java)\
+[90. Subsets II](src/leetcode/_90/SubsetsIIBackTracking.java)\
+
+# Bellman-Ford Algorithm
+[1514. Path with Maximum Probability](src/leetcode/_1514/PathwithMaximumProbability.java)\
+
 # BFS
 [104. Maximum Depth of Binary Tree](src/leetcode/_104/MaximumDepthofBinaryTreeBFS.java)\
 [111. Minimum Depth of Binary Tree](src/leetcode/_111/MinimumDepthofBinaryTreeBFS.java)\
@@ -124,7 +133,7 @@ Cost to Cut a Stick](src/leetcode/_1547/MinimumCosttoCutaStick.java)
 [74. Search a 2D Matrix](src/leetcode/_74/SearchA2DMatrix.java)\
 [76. Minimum Window Substring](src/leetcode/_76/MinimumWindowSubstring.java)\
 [77. Combinations](src/leetcode/_77/Combinations.java)\
-[78. Subsets](src/leetcode/backtracking/_78/Subsets.java)\
+
 [79. Word Search](src/leetcode/_79/WordSearch.java)\
 [81. Search in Rotated Sorted Array II](src/leetcode/_81/SearchInRotatedSortedArrayII.java)\
 [87. Scramble String](src/leetcode/_87/ScrambleString.java)\
