@@ -4,40 +4,38 @@ import java.util.Arrays;
 
 public class NumberOfLongestIncreasingSubsequence {
     public int findNumberOfLIS(int[] nums) {
-        if(nums == null || nums.length == 0){
-            return 0;
-        }
         int n = nums.length;
-        int [] dpL = new int[n];
-        Arrays.fill(dpL, 1);
-
-        int[] dpC = new int[n];
-        Arrays.fill(dpC, 1);
+        int[] length = new int[n];
+        int [] count = new int[n];
+        Arrays.fill(length, 1);
+        Arrays.fill(count, 1);
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < i; j++) {
-                if(nums[i] <= nums[j]){
-                    continue;
+                if(nums[j] < nums[i]){
+                    if(length[j] + 1 > length[i]){
+                        length[i] = length[j] + 1;
+                        count[i] = 0;
+                    }
+                    if(length[j] + 1 == length[i]){
+                        count[i] += count[j];
+                    }
                 }
-                if(dpL[j] + 1 > dpL[i]){
-                    dpL[i] = dpL[j] + 1;
-                    dpC[i] = dpC[j];
-                }else if(dpL[j] + 1 == dpL[i]){
-                    dpC[i] += dpC[j];
-                }
+
             }
         }
         int maxLength = 0;
-        for (int i : dpL) {
+        int result = 0;
+        for (int i : length) {
             maxLength = Math.max(maxLength, i);
         }
-        int count = 0;
+
         for (int i = 0; i < n; i++) {
-            if(dpL[i] == maxLength){
-                count += dpC[i];
+            if(length[i] == maxLength){
+                result += count[i];
             }
         }
-        return count;
+        return result;
     }
     public static void main(String[] args) {
         NumberOfLongestIncreasingSubsequence numberOfLongestIncreasingSubsequence = new NumberOfLongestIncreasingSubsequence();

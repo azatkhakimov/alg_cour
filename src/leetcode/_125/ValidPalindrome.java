@@ -1,4 +1,4 @@
-package leetcode.string;
+package leetcode._125;
 
 import javax.swing.*;
 import java.util.regex.Pattern;

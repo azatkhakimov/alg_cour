@@ -3,7 +3,7 @@ package leetcode._435;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class NonOverlappingIntervals {
+public class    NonOverlappingIntervals {
     public int eraseOverlapIntervals(int[][] intervals) {
         if (intervals == null || intervals.length == 0) {
             return 0;
