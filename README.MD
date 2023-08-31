@@ -80,6 +80,12 @@
 # Dynamic Programming. Bottom-up
 
 [712. Minimum ASCII Delete Sum for Two Strings](src/leetcode/_712/MinimumASCIIDeleteSumforTwoStrings.java)\
+[920. Number of Music Playlists](src/leetcode/_920/NumberofMusicPlaylists.java)\
+[2369. Check if There is a Valid Partition For The Array](src/leetcode/_2369/CheckifThereisaValidPartitionForTheArray.java)\
+
+# Greedy
+[2616. Minimize the Maximum Difference of Pairs](src/leetcode/_2616/MinimizetheMaximumDifferenceofPairs.java)
+
 
 # Prefix Sum
 

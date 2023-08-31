@@ -1,4 +1,4 @@
-package leetcode.dp._63;
+package leetcode._63;
 
 //https://leetcode.com/problems/unique-paths-ii/
 public class UniquePathsII {

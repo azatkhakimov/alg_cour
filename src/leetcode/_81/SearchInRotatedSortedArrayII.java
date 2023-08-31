@@ -11,7 +11,7 @@ public class SearchInRotatedSortedArrayII {
             if(nums[mid] == target){
                 return true;
             }
-            if(isBinarySearchHelps(nums, left, nums[mid])){
+            if(!isBinarySearchHelps(nums, left, nums[mid])){
                 left++;
                 continue;
             }
