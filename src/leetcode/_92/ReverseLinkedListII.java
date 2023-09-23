@@ -19,7 +19,7 @@ public class ReverseLinkedListII {
 
         ListNode con = prev;
         ListNode tail = cur;
-        ListNode third = null;
+        ListNode third;
         while(right > 0){
             third = cur.next;
             cur.next = prev;
