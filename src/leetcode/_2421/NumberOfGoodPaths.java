@@ -2,7 +2,7 @@ package leetcode._2421;
 
 import java.util.*;
 
-public class NumberOfGoodPaths {
+public class    NumberOfGoodPaths {
 
     public int numberOfGoodPaths(int[] vals, int[][] edges) {
         Map<Integer, List<Integer>> adj = new HashMap<>();

@@ -2,6 +2,7 @@
 
 # Backtracking
 
+[22. Generate Parentheses](src/leetcode/_22/GenerateParentheses.java)\
 [39. Combination Sum](src/leetcode/_39/CombinationSum.java)\
 [40. Combination Sum II](src/leetcode/_40/CombinationSum2.java)\
 [46. Permutations](src/leetcode/_46/Permutations.java)\
@@ -49,6 +50,7 @@
 [136. Single Number](src/leetcode/_136/SingleNumber.java)\
 [137. Single Number II](src/leetcode/_137/SingleNumberII.java)\
 [338. Counting Bits](src/leetcode/_338/CountingBits.java)\
+[389. Find the Difference](src/leetcode/_389/FindtheDifference.java)\
 [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/_1318/MinimumFlipstoMakeaORbEqualtoc.java)\
 
 # DFS
@@ -69,6 +71,7 @@
 # Dynamic Programming
 
 [70. Climbing Stairs](src/leetcode/_70/ClimbingStairs.java)\
+[198. House Robber](src/leetcode/_198/HouseRobber.java)\
 [300. Longest Increasing Subsequence](src/leetcode/_300/LongestIncreasingSubsequence.java)\
 [322. Coin Change](src/leetcode/_322/CoinChange.java)\
 [688. Knight Probability in Chessboard](src/leetcode/_688/KnightProbabilityinChessboard.java)\
