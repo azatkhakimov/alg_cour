@@ -20,13 +20,14 @@
 
 [104. Maximum Depth of Binary Tree](src/leetcode/_104/MaximumDepthofBinaryTreeBFS.java)\
 [111. Minimum Depth of Binary Tree](src/leetcode/_111/MinimumDepthofBinaryTreeBFS.java)\
+[515. Find Largest Value in Each Tree Row](src/leetcode/_515/FindLargestValueinEachTreeRow.java)\
 [637. Average of Levels in Binary Tree](src/leetcode/_637/AverageOfLevelsInBinaryTree.java)\
 [784. Letter Case Permutation](src/leetcode/_784/LetterCasePermutationBFS.java)\
 [785. Is Graph Bipartite?](src/leetcode/_785/IsGraphBipartite.java)\
 [1161. Maximum Level Sum of a Binary Tree](src/leetcode/_1161/MaximumLevelSumofaBinaryTreeBFS.java)\
 
 # Binary Search
-
+[34. Find First and Last Position of Element in Sorted Array](src/leetcode/_34/FindFirstAndLastPositionOfElementInSortedArray.java)\
 [268. Missing Number](src/leetcode/_268/MissingNumber.java)\
 [704. Binary Search](src/leetcode/_704/BinarySearch.java)\
 [744. Find Smallest Letter Greater Than Target](src/leetcode/array/_744/FindSmallestLetterGreaterThanTarget.java)\
@@ -35,6 +36,7 @@
 [1498. Number of Subsequences That Satisfy the Given Sum Condition](src/leetcode/_1498/binary_search)\
 [1870. Minimum Speed to Arrive on Time](src/leetcode/_1870/MinimumSpeedtoArriveonTime.java)\
 [2141. Maximum Running Time of N Computers](src/leetcode/_2141/MaximumRunningTimeofNComputers.java)\
+[2251. Number of Flowers in Full Bloom](src/leetcode/_2251/NumberofFlowersinFullBloom.java)\
 
 # Binary Tree
 
@@ -83,7 +85,9 @@
 # Dynamic Programming. Bottom-up
 
 [712. Minimum ASCII Delete Sum for Two Strings](src/leetcode/_712/MinimumASCIIDeleteSumforTwoStrings.java)\
+[746. Min Cost Climbing Stairs](src/leetcode/_746/MinCostClimbingStairs.java)\
 [920. Number of Music Playlists](src/leetcode/_920/NumberofMusicPlaylists.java)\
+[1269. Number of Ways to Stay in the Same Place After Some Steps](src/leetcode/_1269/NumberofWaystoStayintheSamePlaceAfterSomeSteps.java)\
 [2369. Check if There is a Valid Partition For The Array](src/leetcode/_2369/CheckifThereisaValidPartitionForTheArray.java)\
 
 # Greedy
@@ -108,6 +112,7 @@
 [239. Sliding Window Maxim](src/leetcode/_239/SlidingWindowMaximum.java)\
 [1456. Maximum Number of Vowels in a Substring of Given Length](src/leetcode/_1456/MaximumNumberofVowelsinaSubstringofGivenLength.java)\
 [1493. Longest Subarray of 1's After Deleting One Element](src/leetcode/_1493/LongestSubarrayof1sAfterDeletingOneElement.java)
+[2009. Minimum Number of Operations to Make Array Continuous](src/leetcode/_2009/MinimumNumberofOperationstoMakeArrayContinuous.java)\
 [2024. Maximize the Confusion of an Exam](src/leetcode/_2024/MaximizetheConfusionofanExam.java)\
 [2090. K Radius Subarray Averages](src/leetcode/_2090/KRadiusSubarrayAverages.java)\
 
