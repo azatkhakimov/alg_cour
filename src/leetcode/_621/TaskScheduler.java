@@ -1,21 +1,29 @@
 package leetcode._621;
 
-import java.util.Arrays;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class TaskScheduler {
     public int leastInterval(char[] tasks, int n) {
-        int[] taskFreq = new int[26];
-        for (char task : tasks) {
-            taskFreq[task-'A']++;
-        }
-        Arrays.sort(taskFreq);
-        int maxValue = taskFreq[25]-1;
-        int idleSlots = maxValue*n;
-        for (int i = 24; i >= 0; i--) {
-            idleSlots -= Math.min(taskFreq[i], maxValue);
-        }
+        Map<Character, Integer> taskFrequencies = new HashMap<>();
 
-        return idleSlots > 0 ? idleSlots + tasks.length : tasks.length;
+
+        for (char task : tasks) {
+            taskFrequencies.put(task, taskFrequencies.getOrDefault(task, 0)+1);
+        }
+        List<Map.Entry<Character, Integer>> sortedFreq = new ArrayList<>(taskFrequencies.entrySet());
+        Collections.sort(sortedFreq, Map.Entry.comparingByValue());
+
+        int maxFreq = sortedFreq.get(sortedFreq.size()-1).getValue();
+        sortedFreq.remove(sortedFreq.size()-1);
+        int idleTime = (maxFreq - 1) * n;
+        while (!sortedFreq.isEmpty() && idleTime > 0){
+            Integer currFreq = sortedFreq.get(sortedFreq.size() - 1).getValue();
+            idleTime -= Math.min(maxFreq-1, currFreq);
+            sortedFreq.remove(sortedFreq.size()-1);
+        }
+        idleTime = Math.max(0, idleTime);
+        return tasks.length + idleTime;
     }
     public static void main(String[] args) {
         TaskScheduler taskScheduler = new TaskScheduler();

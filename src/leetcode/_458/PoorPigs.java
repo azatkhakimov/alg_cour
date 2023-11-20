@@ -2,7 +2,11 @@ package leetcode._458;
 
 public class PoorPigs {
     public int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
-        return (int) Math.ceil(Math.log(buckets)/Math.log(minutesToTest/minutesToDie+1));
+        int pigs = 0;
+        while (Math.pow(minutesToTest/minutesToDie+1, pigs) < buckets){
+            pigs += 1;
+        }
+        return pigs;
     }
 
     public static void main(String[] args) {

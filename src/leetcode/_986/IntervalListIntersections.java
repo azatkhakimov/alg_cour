@@ -6,22 +6,23 @@ import java.util.List;
 
 public class IntervalListIntersections {
     public int[][] intervalIntersection(int[][] firstList, int[][] secondList) {
-        List<int[]> res = new ArrayList<>();
+        List<int[]> intersections = new ArrayList<>();
         int i = 0;
         int j = 0;
         while (i < firstList.length && j < secondList.length){
-            int lo = Math.max(firstList[i][0], secondList[j][0]);
-            int hi = Math.min(firstList[i][1], secondList[j][1]);
-            if(lo <= hi){
-                res.add(new int[]{lo, hi});
+            int start = Math.max(firstList[i][0], secondList[j][0]);
+            int end = Math.min(firstList[i][1], secondList[j][1]);
+            if(start <= end){
+                intersections.add(new int[]{start, end});
             }
+
             if(firstList[i][1] < secondList[j][1]){
-                i++;
+                i+=1;
             }else {
-                j++;
+                j+=1;
             }
         }
-        return res.toArray(new int[res.size()][]);
+        return intersections.toArray(new int[0][]);
     }
 
     public static void main(String[] args) {

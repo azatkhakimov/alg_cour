@@ -54,6 +54,10 @@
 [338. Counting Bits](src/leetcode/_338/CountingBits.java)\
 [389. Find the Difference](src/leetcode/_389/FindtheDifference.java)\
 [1318. Minimum Flips to Make a OR b Equal to c](src/leetcode/_1318/MinimumFlipstoMakeaORbEqualtoc.java)\
+[2433. Find The Original Array of Prefix Xor](src/leetcode/_2433/FindTheOriginalArrayOfPrefixXor.java)\
+
+# Cantor's Diagonal Argument
+[1980. Find Unique Binary String](src/leetcode/_1980/FindUniqueBinaryString.java)\
 
 # DFS
 
@@ -93,6 +97,10 @@
 # Greedy
 [2616. Minimize the Maximum Difference of Pairs](src/leetcode/_2616/MinimizetheMaximumDifferenceofPairs.java)
 
+# Merge Intervals
+[621. Task Scheduler](src/leetcode/_621/TaskScheduler.java)\
+[986. Interval List Intersections](src/leetcode/_986/IntervalListIntersections.java)
+
 
 # Prefix Sum
 
@@ -112,6 +120,7 @@
 [239. Sliding Window Maxim](src/leetcode/_239/SlidingWindowMaximum.java)\
 [1456. Maximum Number of Vowels in a Substring of Given Length](src/leetcode/_1456/MaximumNumberofVowelsinaSubstringofGivenLength.java)\
 [1493. Longest Subarray of 1's After Deleting One Element](src/leetcode/_1493/LongestSubarrayof1sAfterDeletingOneElement.java)
+[1838. Frequency of the Most Frequent Element](src/leetcode/_1838/FrequencyOfTheMostFrequentElement.java)\
 [2009. Minimum Number of Operations to Make Array Continuous](src/leetcode/_2009/MinimumNumberofOperationstoMakeArrayContinuous.java)\
 [2024. Maximize the Confusion of an Exam](src/leetcode/_2024/MaximizetheConfusionofanExam.java)\
 [2090. K Radius Subarray Averages](src/leetcode/_2090/KRadiusSubarrayAverages.java)\
