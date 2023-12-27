@@ -25,6 +25,12 @@ public class CheckIfTwoStringArraysAreEquivalent {
     }
 
     public static void main(String[] args) {
-
+        var c = new CheckIfTwoStringArraysAreEquivalent();
+        System.out.println(c.arrayStringsAreEqual(new String[]{"ab", "c"},
+                new String[]{"a", "bc"}));//Output: true
+        System.out.println(c.arrayStringsAreEqual(new String[]{"a", "cb"},
+                new String[]{"ab", "c"}));//Output: false
+        System.out.println(c.arrayStringsAreEqual(new String[]{"abc", "d", "defg"},
+                new String[]{"abcddefg"}));//Output: true
     }
 }

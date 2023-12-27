@@ -59,6 +59,9 @@
 # Cantor's Diagonal Argument
 [1980. Find Unique Binary String](src/leetcode/_1980/FindUniqueBinaryString.java)\
 
+# Counting With Hash Map
+[1814. Count Nice Pairs in an Array](src/leetcode/_1814/CountNicePairsInanArray.java)\
+
 # DFS
 
 [79. Word Search](src/leetcode/_79/WordSearch.java)\
@@ -97,7 +100,17 @@
 # Greedy
 [2616. Minimize the Maximum Difference of Pairs](src/leetcode/_2616/MinimizetheMaximumDifferenceofPairs.java)
 
+# K-way merge
+[88.Merge Sorted Array](src/leetcode/_88/MergeSortedArray.java)\
+
+# Linked List
+[25. Reverse Nodes in k-Group](src/leetcode/_25/ReverseNodesInkGroup.java)\
+[92. Reverse Linked List II](src/leetcode/_92/ReverseLinkedListII.java)\
+[143. Reorder List](src/leetcode/_143/ReorderList.java)\
+[206. Reverse Linked List](src/leetcode/_206/ReverseLinkedList.java)
+
 # Merge Intervals
+[253. Meeting Rooms II](src/leetcode/_253/MeetingRoomsII.java)\
 [621. Task Scheduler](src/leetcode/_621/TaskScheduler.java)\
 [986. Interval List Intersections](src/leetcode/_986/IntervalListIntersections.java)
 

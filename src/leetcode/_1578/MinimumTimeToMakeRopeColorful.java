@@ -3,22 +3,21 @@ package leetcode._1578;
 //https://www.youtube.com/watch?v=wq6HX-LvIG4
 public class MinimumTimeToMakeRopeColorful {
     public int minCost(String colors, int[] neededTime) {
-        int start = 0;
-        int end = 0;
-        int n = colors.length();
-        int totalTime = 0;
-        while (start < n && end < n){
-            int maxTime = 0;
-            int groupTime = 0;
-            while(end < n && colors.charAt(end) == colors.charAt(start)){
-                maxTime = Math.max(maxTime, neededTime[end]);
-                groupTime += neededTime[end];
-                end++;
-            }
-            totalTime += (groupTime-maxTime);
-            start = end;
-        }
-        return totalTime;
+       int left = 0;
+       int right = 0;
+       int totalTime = 0;
+       while (left < neededTime.length && right < neededTime.length){
+           int currTotal = 0;
+           int currMax = 0;
+           while (right < neededTime.length && colors.charAt(left) == colors.charAt(right)){
+               currTotal += neededTime[right];
+               currMax = Math.max(currMax, neededTime[right]);
+               right++;
+           }
+           totalTime += currTotal - currMax;
+           left = right;
+       }
+       return totalTime;
     }
 
     public static void main(String[] args) {

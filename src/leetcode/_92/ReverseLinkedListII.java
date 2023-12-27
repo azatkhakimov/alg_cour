@@ -2,38 +2,58 @@ package leetcode._92;
 
 import leetcode.common.models.ListNode;
 
-//https://leetcode.com/problems/reverse-linked-list-ii/solution/
+
 public class ReverseLinkedListII {
     public ListNode reverseBetween(ListNode head, int left, int right) {
-        if(head == null){
-            return null;
+        ListNode curr = head;
+        ListNode lpn = null;
+        ListNode right_n = null;
+        ListNode reverseHead = null;
+        int count = 1;
+        while (count < left && curr != null){
+            lpn = curr;
+            curr = curr.next;
+            count++;
         }
-        ListNode prev = null;
-        ListNode cur = head;
-        while(left > 1){
-            prev = cur;
-            cur = cur.next;
-            left--;
-            right--;
+        if(curr != null){
+            ListNode rpn = curr;
+            while (count <= right && rpn != null){
+                right_n = rpn;
+                rpn = right_n.next;
+                count++;
+            }
+            if(right_n != null){
+                reverseHead = reverse(curr, left, right);
+            }
+            if(lpn != null){
+                lpn.next = reverseHead;
+            }
+            if(rpn !=null){
+                ListNode tmp = reverseHead;
+                while (tmp.next != null){
+                    tmp = tmp.next;
+                }
+                tmp.next = rpn;
+            }
         }
-
-        ListNode con = prev;
-        ListNode tail = cur;
-        ListNode third;
-        while(right > 0){
-            third = cur.next;
-            cur.next = prev;
-            prev = cur;
-            cur = third;
-            right--;
-        }
-        if(con != null){
-            con.next = prev;
+        if(lpn != null){
+            return head;
         }else {
-            head = prev;
+            return reverseHead;
         }
-        tail.next = cur;
-        return head;
+    }
+
+    private ListNode reverse(ListNode head, int left, int right) {
+        ListNode prev = null;
+        ListNode curr = head;
+        while (right >= left){
+            ListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+            right--;
+        }
+        return prev;
     }
 
     public static void main(String[] args) {
