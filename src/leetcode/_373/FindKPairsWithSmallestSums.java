@@ -1,45 +1,31 @@
 package leetcode._373;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class FindKPairsWithSmallestSums {
     public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
-        List<List<Integer>> res = new ArrayList<>();
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] + a[1] - b[0] - b[1]);
-        if (nums1.length == 0 || nums2.length == 0 || k == 0) {
-            return res;
+        List<List<Integer>> pairs = new ArrayList<>();
+        int listLength = nums1.length;
+        PriorityQueue<int[]> minHeap = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));
+        for(int i = 0; i < Math.min(k ,listLength); i++){
+            minHeap.add(new int[]{nums1[i] + nums2[0], i, 0});
         }
-        for (int i = 0; i < nums1.length && i < k; i++) {
-            pq.offer(new int[]{nums1[i], nums2[0], 0});
-        }
-        while (k-- > 0 && !pq.isEmpty()) {
-            int[] cur = pq.poll();
-            res.add(Arrays.asList(cur[0], cur[1]));
-            if (cur[2] == nums2.length - 1) {
-                continue;
+
+        int counter = 1;
+        while (!minHeap.isEmpty() && counter <= k) {
+            int[] pair = minHeap.poll();
+            int i = pair[1];
+            int j = pair[2];
+            pairs.add(Arrays.asList(nums1[i], nums2[j]));
+            int nextElement = j+1;
+            if(nums2.length > nextElement){
+                minHeap.add(new int[]{nums1[i]+nums2[nextElement], i, nextElement});
             }
-            pq.offer(new int[]{cur[0], nums2[cur[2] + 1], cur[2] + 1});
+            counter++;
         }
-        return res;
+        return pairs;
     }
 
-//    public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
-//        PriorityQueue<int[]> que = new PriorityQueue<>((a,b)->a[0]+a[1]-b[0]-b[1]);
-//        List<List<Integer>> res = new ArrayList<>();
-//        if(nums1.length==0 || nums2.length==0 || k==0) return res;
-//        for(int i=0; i<nums1.length && i<k; i++) que.offer(new int[]{nums1[i], nums2[0], 0});
-//        while(k-- > 0 && !que.isEmpty()){
-//            int[] cur = que.poll();
-//            res.add(Arrays.asList(cur[0], cur[1]));
-////            res.add(new int[]{cur[0], cur[1]});
-//            if(cur[2] == nums2.length-1) continue;
-//            que.offer(new int[]{cur[0],nums2[cur[2]+1], cur[2]+1});
-//        }
-//        return res;
-//    }
 
     public static void main(String[] args) {
         FindKPairsWithSmallestSums finder = new FindKPairsWithSmallestSums();

@@ -3,23 +3,24 @@ package leetcode._703;
 import java.util.PriorityQueue;
 
 class KthLargest {
-    private int k;
     private PriorityQueue<Integer> heap;
+    int k = 0;
     public KthLargest(int k, int[] nums) {
-        this.k = k;
         heap = new PriorityQueue<>();
+        this.k = k;
         for (int num : nums) {
-            heap.offer(num);
-        }
-        while (heap.size() > k){
-            heap.poll();
+            add(num);
         }
     }
 
     public int add(int val) {
-        heap.offer(val);
-        if(heap.size() > k){
-            heap.poll();
+        if (heap.size() < k) {
+            heap.offer(val);
+        }else {
+            if (val > heap.peek()) {
+                heap.poll();
+                heap.offer(val);
+            }
         }
         return heap.peek();
     }

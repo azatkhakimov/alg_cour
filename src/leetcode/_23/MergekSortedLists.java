@@ -1,4 +1,4 @@
-package leetcode.heap._23;
+package leetcode._23;
 
 import leetcode.common.models.ListNode;
 

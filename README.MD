@@ -101,7 +101,9 @@
 [2616. Minimize the Maximum Difference of Pairs](src/leetcode/_2616/MinimizetheMaximumDifferenceofPairs.java)
 
 # K-way merge
+[23. Merge k Sorted Lists](src/leetcode/_23/MergekSortedLists.java)\
 [88.Merge Sorted Array](src/leetcode/_88/MergeSortedArray.java)\
+[378. Kth Smallest Element in a Sorted Matrix](src/leetcode/_378/KthSmallestElementInASortedMatrix.java)\
 
 # Linked List
 [25. Reverse Nodes in k-Group](src/leetcode/_25/ReverseNodesInkGroup.java)\
@@ -118,6 +120,9 @@
 # Prefix Sum
 
 [2448. Minimum Cost to Make Array Equal](src/leetcode/_2448/MinimumCosttoMakeArrayEqual.java)\
+
+# Top K Elements
+[767. Reorganize String](src/leetcode/_767/ReorganizeString.java)\
 
 # Two Pointers
 

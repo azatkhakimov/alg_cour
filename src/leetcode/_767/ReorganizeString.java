@@ -1,45 +1,41 @@
 package leetcode._767;
 
+import java.util.*;
+
 public class ReorganizeString {
 
 
     public String reorganizeString(String s) {
-        int[] charCounts = new int[26];
+        Map<Character, Integer> freq = new HashMap<>();
         for (char c : s.toCharArray()) {
-            charCounts[c-'a']++;
+            freq.put(c, freq.getOrDefault(c, 0)+1);
         }
-        int maxCount = 0;
-        int letter = 0;
-        for (int i = 0; i < charCounts.length; i++) {
-            if(charCounts[i] > maxCount){
-                maxCount = charCounts[i];
-                letter  = i;
+
+        PriorityQueue<Map.Entry<Character, Integer>> maxHeap = new PriorityQueue<>((i1, i2)-> i2.getValue()-i1.getValue());
+        maxHeap.addAll(freq.entrySet());
+
+        Map.Entry<Character, Integer> prev = null;
+        StringBuilder sb = new StringBuilder();
+
+        while (!maxHeap.isEmpty() || prev != null) {
+            if(prev != null && maxHeap.isEmpty()){
+                return "";
             }
-        }
-        if(maxCount > (s.length() +1)/2){
-            return "";
-        }
-
-        char[] ans = new char[s.length()];
-        int index = 0;
-        while (charCounts[letter] != 0) {
-            ans[index] = (char) (letter + 'a');
-            index += 2;
-            charCounts[letter]--;
-        }
-
-        for (int i = 0; i < charCounts.length; i++) {
-            while (charCounts[i] > 0){
-                if(index >= s.length()){
-                    index = 1;
-                }
-
-                ans[index] = (char)(i+'a');
-                index += 2;
-                charCounts[i]--;
+            Map.Entry<Character, Integer> currEntry = maxHeap.poll();
+            int count = currEntry.getValue() - 1;
+            sb.append(currEntry.getKey());
+            if(prev != null){
+                maxHeap.offer(prev);
+                prev = null;
             }
+
+            if(count != 0){
+                prev = new AbstractMap.SimpleEntry<>(currEntry.getKey(), count);
+            }
+
+
         }
-        return String.valueOf(ans);
+        return sb.toString();
     }
 
     public static void main(String[] args) {

@@ -1,54 +1,46 @@
 package leetcode._1531;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class StringCompressionII {
+    private Map<Integer, Integer> memo = new HashMap<>();
+    Set<Integer> add = Set.of(1, 9, 99);
+
     public int getLengthOfOptimalCompression(String s, int k) {
-        char[] chars = s.toCharArray();
-        int[][] dp = new int[s.length()][k+1];
-        for (int[] row : dp) {
-            Arrays.fill(row, -1);
-        }
-        return dfs(chars, 0, k, dp);
+        return dp(s, 0, (char) ('a' + 26), 0, k);
     }
 
-    private int dfs(char[] s, int curIndex, int k, int[][] dp) {
-        if(curIndex == s.length || s.length - curIndex <= k){
+    private int dp(String s, int idx, char lastChar, int lastCharCount, int k) {
+        if (k < 0) {
+            return Integer.MAX_VALUE / 2;
+        }
+
+        if(idx == s.length()){
             return 0;
         }
-        if(dp[curIndex][k] != -1){
-            return dp[curIndex][k];
-        }
-        int[] frequency = new int[26];
-        int most = 0;
-        int res = Integer.MAX_VALUE;
 
-        for (int i = curIndex; i < s.length; i++) {
-            int idx = s[i]-'a';
-            frequency[idx]++;
+        int key = idx * 101 * 27 * 101 + (lastChar - 'a') * 101 * 101 + lastCharCount * 101 + k;
 
-            most = Math.max(most, frequency[idx]);
-            if(k >= i-curIndex+1-most){
-                res = Math.min(res, getLength(most)+1+dfs(s, i+1, k-(i-curIndex+1-most), dp));
-            }
+        if (memo.containsKey(key)) {
+            return memo.get(key);
         }
-        dp[curIndex][k] = res;
+
+        int keepChar;
+        int deleteChar = dp(s, idx + 1, lastChar, lastCharCount, k - 1);
+        if (s.charAt(idx) == lastChar) {
+            keepChar = dp(s, idx + 1, lastChar, lastCharCount + 1, k) + (add.contains(lastCharCount) ? 1 : 0);
+        }
+        else {
+            keepChar = dp(s, idx + 1, s.charAt(idx), 1, k) + 1;
+        }
+        int res = Math.min(keepChar, deleteChar);
+        memo.put(key, res);
         return res;
     }
 
-    private int getLength(int most) {
-        if(most == 1){
-            return 0;
-        }
-        if(most < 10){
-            return 1;
-        }
-        if(most < 99){
-            return 2;
-        }
-        return 3;
-    }
 
     public static void main(String[] args) {
         StringCompressionII stringCompression = new StringCompressionII();
