@@ -1,10 +1,11 @@
 package leetcode._79;
+
 //DFS
 public class WordSearch {
     public boolean exist(char[][] board, String word) {
-        for (int i = 0; i < board.length; i++) {
-            for(int j = 0; j < board[i].length; j++){
-                if(board[i][j] == word.charAt(0) && dfs(board, i, j, 0, word)){
+        for (int row = 0; row < board.length; row++) {
+            for (int col = 0; col < board[0].length; col++) {
+                if (dfs(row, col, board, word)) {
                     return true;
                 }
             }
@@ -12,22 +13,27 @@ public class WordSearch {
         return false;
     }
 
-    private boolean dfs(char[][] board, int i, int j, int count, String word) {
-        if(count == word.length()){
+    private boolean dfs(int row, int col, char[][] board, String word) {
+        if (word.isEmpty()) {
             return true;
         }
-        if(i < 0 || i>=board.length || j < 0 || j >= board[i].length || board[i][j] != word.charAt(count)){
+
+        if (row < 0 || row == board.length || col < 0 || col == board[0].length || (board[row][col] != word.charAt(0))) {
             return false;
         }
-        char temp = board[i][j];
-        board[i][j] = ' ';
-        boolean found = dfs(board, i+1, j, count+1, word)
-                || dfs(board, i-1, j, count+1, word)
-                || dfs(board, i, j+1, count+1, word)
-                || dfs(board, i, j-1, count+1, word);
-        board[i][j] = temp;
-        return found;
+        boolean result = false;
+
+        board[row][col] = '*';
+        int[][] dirs = new int[][]{{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+        for (int[] dir : dirs) {
+            int rowDir = dir[0];
+            int colDir = dir[1];
+            result = dfs(row + rowDir, col + colDir, board, word.substring(1));
+        }
+        board[row][col] = word.charAt(0);
+        return result;
     }
+
 
     public static void main(String[] args) {
         var w = new WordSearch();

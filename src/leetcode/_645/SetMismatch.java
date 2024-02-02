@@ -1,28 +1,32 @@
 package leetcode._645;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class SetMismatch {
     public int[] findErrorNums(int[] nums) {
-        int[] res = new int[2];
+        Map<Integer, Integer> map = new HashMap<>();
+        int dup = -1;
+        int missing = 1;
         for (int num : nums) {
-            if(nums[Math.abs(num)-1]<0){
-                res[0] = Math.abs(num);
-            }else {
-                nums[Math.abs(num-1)] *= -1;
+            map.put(num, map.getOrDefault(num, 0) + 1);
+        }
+        for (int i = 1; i < nums.length; i++) {
+            if (map.containsKey(i)) {
+                if (map.get(i) == 2) {
+                    dup = i;
+                }
+            } else {
+                missing = i;
             }
         }
-        for (int i = 0; i < nums.length; i++) {
-            if(nums[i] > 0){
-                res[1] = i+1;
-            }
-        }
-        return res;
+        return new int[]{dup, missing};
     }
 
     public static void main(String[] args) {
         SetMismatch setMismatch = new SetMismatch();
-        System.out.println(Arrays.toString(setMismatch.findErrorNums(new int[]{1,2,2,4})));//Output: [2,3]
-        System.out.println(Arrays.toString(setMismatch.findErrorNums(new int[]{1,1})));//Output: [1,2]
+        System.out.println(Arrays.toString(setMismatch.findErrorNums(new int[]{1, 2, 2, 4})));//Output: [2,3]
+        System.out.println(Arrays.toString(setMismatch.findErrorNums(new int[]{1, 1})));//Output: [1,2]
     }
 }

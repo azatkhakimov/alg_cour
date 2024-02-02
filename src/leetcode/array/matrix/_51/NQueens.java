@@ -1,65 +1,45 @@
 package leetcode.array.matrix._51;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class NQueens {
-    public List<List<String>> solveNQueens(int n) {
-        char[][] chess = new char[n][n];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                chess[i][j] = '.';
-            }
-        }
-        List<List<String>> result = new ArrayList<>();
-        solve(result, chess, 0);
-        return result;
+    public List<List<Integer>> solveNQueens(int n) {
+        List<List<Integer>> ans = new ArrayList<>();
+        List<Integer> solution = new ArrayList<>(Collections.nCopies(n, -1));
+        solveNQueensReq(0, n, solution, ans);
+        return ans;
     }
 
-    private void solve(List<List<String>> result, char[][] chess, int row) {
-        if(row == chess.length){
-            result.add(construct(chess));
+    private void solveNQueensReq(int currRow, int n, List<Integer> solution, List<List<Integer>> ans) {
+        if(currRow == n){
+            ans.add(solution);
             return;
         }
-        for (int col = 0; col < chess.length; col++) {
-            if(valid(chess, row, col)){
-                chess[row][col] = 'Q';
-                solve(result, chess, row+1);
-                chess[row][col] = '.';
+        for (int i = 0; i < n; i++) {
+            if(valid(currRow, i, solution)){
+                solution.set(currRow, i);
+                solveNQueensReq(currRow+1, n, solution, ans);
             }
         }
-
     }
 
-    private boolean valid(char[][] chess, int row, int col) {
-        for(int i = 0; i < row; i++){
-            if(chess[i][col] == 'Q'){
+    private boolean valid(int proposedRow, int proposedCol, List<Integer> solution) {
+        int oldRow = 0;
+        int oldCol = 0;
+        int diagonalOffset = 0;
+        for (int i = 0; i < proposedRow; i++) {
+            oldRow = i;
+            diagonalOffset = proposedRow - oldRow;
+            oldCol = solution.get(i);
+            if(oldCol == proposedCol || oldCol == proposedCol - diagonalOffset || oldCol == proposedCol+diagonalOffset){
                 return false;
             }
         }
-
-        for(int i = row-1, j = col+1; i>=0 && j< chess.length; i--, j++){
-            if(chess[i][j] == 'Q'){
-                return false;
-            }
-        }
-
-        for(int i = row-1, j = col-1; i>=0 && j >=0; i--, j--){
-            if(chess[i][j] == 'Q'){
-                return false;
-            }
-        }
-
         return true;
     }
 
-    private List<String> construct(char[][] chess) {
-        List<String> path = new ArrayList<>();
-        for (int i = 0; i < chess.length; i++) {
-            path.add(new String(chess[i]));
-        }
-        return path;
-    }
 
     public static void main(String[] args) {
         NQueens nQueens = new NQueens();

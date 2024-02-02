@@ -1,37 +1,29 @@
 package leetcode._1657;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class DetermineIfTwoStringsAreClose {
 
     public boolean closeStrings(String word1, String word2) {
-        int N = 26;
-        int[] word1arr = new int[N];
-        int[] word2arr = new int[N];
-
+        Map<Character, Integer> freqMapW1 = new HashMap();
         for (char c : word1.toCharArray()) {
-            word1arr[c - 'a']++;
+            freqMapW1.put(c, freqMapW1.getOrDefault(c, 0) + 1);
         }
-        for (char c : word2.toCharArray()) {
-            word2arr[c-'a']++;
-        }
-        for (int i = 0; i < N; i++) {
-            if(word1arr[i] == word2arr[i]){
-                continue;
-            }
-            if(word1arr[i] == 0 || word2arr[i] ==0 ){
-                return false;
-            }
-        }
-        Arrays.sort(word1arr);
-        Arrays.sort(word2arr);
 
-        for (int i = 0; i < N; i++) {
-            if(word1arr[i] != word2arr[i]){
-                return false;
-            }
+        Map<Character, Integer> freqMapW2 = new HashMap<>();
+        for (char c : word2.toCharArray()) {
+            freqMapW2.put(c, freqMapW2.getOrDefault(c, 0) + 1);
         }
-        return true;
+
+        if (!freqMapW1.keySet().equals(freqMapW2.keySet())) {
+            return false;
+        }
+
+        List<Integer> freqW1 = new ArrayList<>(freqMapW1.values());
+        List<Integer> freqW2 = new ArrayList<>(freqMapW2.values());
+        Collections.sort(freqW1);
+        Collections.sort(freqW2);
+        return freqW1.equals(freqW2);
     }
 
     public static void main(String[] args) {

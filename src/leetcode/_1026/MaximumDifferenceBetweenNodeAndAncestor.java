@@ -2,7 +2,7 @@ package leetcode._1026;
 
 import leetcode.common.models.TreeNode;
 
-public class MaximumDifferenceBetweenNodeAndAncestor {
+public class  MaximumDifferenceBetweenNodeAndAncestor {
     public int maxAncestorDiff(TreeNode root) {
         if(root == null){
             return 0;

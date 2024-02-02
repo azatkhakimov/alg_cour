@@ -26,9 +26,14 @@
 [785. Is Graph Bipartite?](src/leetcode/_785/IsGraphBipartite.java)\
 [1161. Maximum Level Sum of a Binary Tree](src/leetcode/_1161/MaximumLevelSumofaBinaryTreeBFS.java)\
 
-# Binary Search
+# Binary Search and Modified Binary Search
+[33. Search in Rotated Sorted Array](src/leetcode/_33/SearchInRotatedSortedArray.java)\
 [34. Find First and Last Position of Element in Sorted Array](src/leetcode/_34/FindFirstAndLastPositionOfElementInSortedArray.java)\
+[81. Search in Rotated Sorted Array II](src/leetcode/_81/SearchInRotatedSortedArrayII.java)\
 [268. Missing Number](src/leetcode/_268/MissingNumber.java)\
+[528. Random Pick with Weight](src/leetcode/_528/RandomPickwithWeight.java)\
+[540. Single Element in a Sorted Array](src/leetcode/_540/SingleElementInaSortedArray.java)\
+[658. Find K Closest Elements](src/leetcode/_658/FindKClosestElements.java)\
 [704. Binary Search](src/leetcode/_704/BinarySearch.java)\
 [744. Find Smallest Letter Greater Than Target](src/leetcode/array/_744/FindSmallestLetterGreaterThanTarget.java)\
 [852. Peak Index in a Mountain Array](src/leetcode/_852/PeakIndexInaMountainArray.java)\
@@ -97,7 +102,12 @@
 [1269. Number of Ways to Stay in the Same Place After Some Steps](src/leetcode/_1269/NumberofWaystoStayintheSamePlaceAfterSomeSteps.java)\
 [2369. Check if There is a Valid Partition For The Array](src/leetcode/_2369/CheckifThereisaValidPartitionForTheArray.java)\
 
-# Greedy
+# Greedy Techniques
+[55. Jump Game](src/leetcode/_55/JumpGame.java)\
+[134. Gas Station](src/leetcode/_134/GasStation.java)\
+[871. Minimum Number of Refueling Stops](src/leetcode/_871/MinimumNumberOfRefuelingStops.java)\
+[881. Boats to Save People](src/leetcode/_881/BoatsToSavePeople.java)\
+[1029. Two City Scheduling](src/leetcode/_1029/TwoCityScheduling.java)\
 [2616. Minimize the Maximum Difference of Pairs](src/leetcode/_2616/MinimizetheMaximumDifferenceofPairs.java)
 
 # K-way merge
@@ -122,6 +132,9 @@
 [2448. Minimum Cost to Make Array Equal](src/leetcode/_2448/MinimumCosttoMakeArrayEqual.java)\
 
 # Top K Elements
+[215. Kth Largest Element in an Array](src/leetcode/_215/KthLargestElementInAnArray.java)\
+[347. Top K Frequent Elements](src/leetcode/_347/TopKFrequentElements.java)\
+[692. Top K Frequent Words](src/leetcode/_692/TopKFrequentWords.java)\
 [767. Reorganize String](src/leetcode/_767/ReorganizeString.java)\
 
 # Two Pointers
@@ -136,12 +149,17 @@
 [3. Longest Substring Without Repeating Characters](src/leetcode/_3/LongestSubstringWithoutRepeatingCharacters.java)\
 [209. Minimum Size Subarray Sum](src/leetcode/_209/MinimumSizeSubarraySum.java)\
 [239. Sliding Window Maxim](src/leetcode/_239/SlidingWindowMaximum.java)\
+[1291. Sequential Digits](src/leetcode/_1291/SequentialDigits.java)\
 [1456. Maximum Number of Vowels in a Substring of Given Length](src/leetcode/_1456/MaximumNumberofVowelsinaSubstringofGivenLength.java)\
 [1493. Longest Subarray of 1's After Deleting One Element](src/leetcode/_1493/LongestSubarrayof1sAfterDeletingOneElement.java)
 [1838. Frequency of the Most Frequent Element](src/leetcode/_1838/FrequencyOfTheMostFrequentElement.java)\
 [2009. Minimum Number of Operations to Make Array Continuous](src/leetcode/_2009/MinimumNumberofOperationstoMakeArrayContinuous.java)\
 [2024. Maximize the Confusion of an Exam](src/leetcode/_2024/MaximizetheConfusionofanExam.java)\
 [2090. K Radius Subarray Averages](src/leetcode/_2090/KRadiusSubarrayAverages.java)\
+
+# Subsets
+[46. Permutations](src/leetcode/_46/Permutations.java)\
+[78. Subsets](src/leetcode/_78/Subsets.java)\
 
 # Iterative Dynamic Programming
 

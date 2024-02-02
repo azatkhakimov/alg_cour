@@ -2,41 +2,38 @@ package leetcode._200;
 
 public class NumberOfIslands {
     public int numIslands(char[][] grid) {
-        if(grid == null || grid.length == 0){
-            return 0;
-        }
-        int result = 0;
-        for (int i = 0; i < grid.length; i++) {
-            for (int j = 0; j < grid[i].length; j++) {
-                result += dfs(grid, i, j);
+        int count = 0;
+        for (int row = 0; row < grid.length; row++) {
+            for (int col = 0; col < grid[0].length; col++) {
+                count += dfs(row, col, grid);
             }
         }
-        return result;
+        return count;
     }
 
-    private int dfs(char[][] grid, int i, int j) {
-        //vertical limits
-        if(i < 0 || i >= grid.length){
+    private int dfs(int row, int col, char[][] grid) {
+        if(row < 0 || row >= grid.length){
+            return 0;
+        }
+        if(col < 0 || col >= grid[0].length){
             return 0;
         }
 
-        //horizontal limits
-        if(j < 0 || j >= grid[0].length){
+        if(grid[row][col] == '0'){
             return 0;
         }
 
-        //found water
-        if(grid[i][j] == '0'){
-            return 0;
+        grid[row][col] = '0';
+        int[][] dirs = new int[][]{{0,1},{0,-1},{1,0},{-1,0}};
+        for (int[] dir : dirs) {
+            int rowDir = dir[0];
+            int colDir = dir[1];
+            dfs(row+rowDir, col+colDir, grid);
         }
 
-        grid[i][j] = '0';
-        dfs(grid, i+1, j);
-        dfs(grid, i-1, j);
-        dfs(grid, i, j+1);
-        dfs(grid, i, j-1);
         return 1;
     }
+
 
     public static void main(String[] args) {
         NumberOfIslands numberOfIslands = new NumberOfIslands();

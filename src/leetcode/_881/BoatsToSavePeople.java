@@ -5,17 +5,21 @@ import java.util.Arrays;
 public class BoatsToSavePeople {
     public int numRescueBoats(int[] people, int limit) {
         Arrays.sort(people);
-        int i = 0;
-        int j = people.length-1;
-        int ans = 0;
-        while (i <= j){
-            ans++;
-            if(people[i]+people[j] <= limit){
-                i++;
+        int left = 0;
+        int right = people.length-1;
+        int boats = 0;
+        while (left <= right){
+            int light = people[left];
+            int heavy = people[right];
+            if(light + heavy <= limit){
+                left++;
+                right--;
+            }else {
+                right--;
             }
-            j--;
+            boats++;
         }
-        return ans;
+        return boats;
     }
 
 

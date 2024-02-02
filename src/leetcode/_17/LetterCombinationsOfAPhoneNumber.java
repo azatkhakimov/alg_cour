@@ -1,41 +1,47 @@
 package leetcode._17;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class LetterCombinationsOfAPhoneNumber {
+    List<String> ans;
     public List<String> letterCombinations(String digits) {
-        List<String> result = new ArrayList<>();
-        if(digits == null || digits.length() == 0){
-            return result;
+        ans = new ArrayList<>();
+        if(digits == null || digits.isEmpty()){
+            return ans;
         }
-        String[] mappingLetters = {
-                "0",
-                "1",
-                "abc",
-                "def",
-                "ghi",
-                "jkl",
-                "mno",
-                "pqrs",
-                "tuv",
-                "wxyz"
-        };
-        combine(result, digits, "", 0, mappingLetters);
-        return result;
+
+        Map<Character, String[]> dict = new HashMap<>();
+        dict.put('1', new String[]{""});
+        dict.put('2', new String[]{"a", "b", "c"});
+        dict.put('3', new String[]{"d", "e", "f"});
+        dict.put('4', new String[]{"g", "h", "i"});
+        dict.put('5', new String[]{"j", "k", "l"});
+        dict.put('6', new String[]{"m", "n", "o"});
+        dict.put('7', new String[]{"p", "q", "r", "s"});
+        dict.put('8', new String[]{"t", "u", "v"});
+        dict.put('9', new String[]{"w", "x", "y", "z"});
+        backtrack(0, new StringBuilder(), digits, dict);
+        return ans;
     }
 
-    private void combine(List<String> result, String digits, String current, int index, String[] mappingLetters) {
-        if(index == digits.length()){
-            result.add(current);
+    private void backtrack(int index, StringBuilder path, String digits, Map<Character, String[]> dict) {
+        if(path.length() == digits.length()){
+            ans.add(path.toString());
             return;
         }
 
-        String letters = mappingLetters[digits.charAt(index)-'0'];
-        for (char letter : letters.toCharArray()) {
-            combine(result, digits, current+letter, index+1, mappingLetters);
+        char digit = digits.charAt(index);
+        String[] possibleLetters = dict.get(digit);
+        for (String possibleLetter : possibleLetters) {
+            path.append(possibleLetter);
+            backtrack(index+1, path, digits, dict);
+            path.deleteCharAt(path.length()-1);
         }
     }
+
 
     public static void main(String[] args) {
         LetterCombinationsOfAPhoneNumber letterCombinationsOfAPhoneNumber = new LetterCombinationsOfAPhoneNumber();

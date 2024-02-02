@@ -3,45 +3,30 @@ package leetcode._81;
 public class SearchInRotatedSortedArrayII {
 
     public boolean search(int[] nums, int target) {
-        int left = 0;
-        int right = nums.length-1;
-
-        while (left <= right){
-            int mid = left+(right-left)/2;
+        int lo = 0;
+        int hi = nums.length-1;
+        while (lo < hi){
+            int mid = lo+(hi-lo)/2;
             if(nums[mid] == target){
                 return true;
             }
-            if(!isBinarySearchHelps(nums, left, nums[mid])){
-                left++;
-                continue;
-            }
-
-            boolean pivotArray = existsInFirst(nums, left, nums[mid]);
-            boolean targetArray = existsInFirst(nums, left, target);
-            if(pivotArray ^ targetArray){
-                if(pivotArray){
-                    left = mid + 1;
+            if(nums[0] < nums[mid]){
+                if(nums[0] <= target && target < nums[mid]){
+                    hi = mid;
                 }else {
-                    right = mid - 1;
+                    lo = mid-1;
                 }
             }else {
-                if(nums[mid] < target){
-                    left = mid + 1;
+                if(target <= nums[nums.length-1] && target > nums[mid]){
+                    lo = mid+1;
                 }else {
-                    right = mid-1;
+                    hi = mid;
                 }
             }
         }
         return false;
     }
 
-    private boolean existsInFirst(int[] nums, int left, int num) {
-        return nums[left] <= num;
-    }
-
-    private boolean isBinarySearchHelps(int[] nums, int left, int element) {
-        return nums[left] != element;
-    }
 
     public static void main(String[] args) {
         SearchInRotatedSortedArrayII sortedArray = new SearchInRotatedSortedArrayII();

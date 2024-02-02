@@ -2,13 +2,13 @@ package leetcode._55;
 
 public class JumpGame {
     public boolean canJump(int[] nums) {
-        int lastGoodIndPos = nums.length - 1;
-        for (int i = nums.length - 1; i >= 0; i--) {
-            if(i+nums[i] >= lastGoodIndPos){
-                lastGoodIndPos = i;
+        int targetNumIdx = nums.length-1;
+        for (int i = nums.length - 2; i >= 0; i--) {
+            if(targetNumIdx <= nums[i]+i){
+                targetNumIdx = i;
             }
         }
-        return lastGoodIndPos == 0;
+        return targetNumIdx == 0;
     }
 
     public static void main(String[] args) {

@@ -11,7 +11,7 @@ public class Permutations {
     }
 
     private void backtrack(List<List<Integer>> answers, ArrayList<Integer> temp, int[] nums) {
-        if(temp.size() == nums.length){
+        if(nums.length == temp.size()){
             answers.add(new ArrayList<>(temp));
         }else {
             for (int i = 0; i < nums.length; i++) {

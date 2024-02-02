@@ -1,52 +1,60 @@
 package leetcode._93;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 
-
 public class RestoreIPAddresses {
+    private int n;
+    private String str;
+    private ArrayList<String> result;
+    private LinkedList<String> segments;
+
     public List<String> restoreIpAddresses(String s) {
-        List<String> ans = new ArrayList<>();
-        helper(s, 0, new ArrayList<>(), ans);
-        return ans;
+        n = s.length();
+        str = s;
+        result = new ArrayList<>();
+        segments = new LinkedList<>();
+        backtrack(-1, 3);
+        return result;
     }
 
-    private void helper(String s, int startIndex, List<Integer> dots, List<String> ans) {
-        int remainingLength = s.length()-startIndex;
-        int remainingNumberOfInts = 4 - dots.size();
-        if(remainingLength > remainingNumberOfInts * 3 ||
-        remainingLength < remainingNumberOfInts){
-            return;
-        }
-
-        if(dots.size() == 3){
-            if(valid(s, startIndex, remainingLength)){
-                StringBuilder stringBuilder = new StringBuilder();
-                int last = 0;
-                for (Integer dot : dots) {
-                    stringBuilder.append(s.substring(last, last+dot));
-                    last += dot;
-                    stringBuilder.append(".");
+    private void backtrack(int prevDot, int dots) {
+        int maxPos = Math.min(n - 1, prevDot + 4);
+        for (int currDot = prevDot + 1; currDot < maxPos; currDot++) {
+            String segment = str.substring(prevDot + 1, currDot + 1);
+            if (valid(segment)) {
+                segments.add(segment);
+                if (dots - 1 == 0) {
+                    updateSegments(currDot);
+                } else {
+                    backtrack(currDot, dots - 1);
                 }
-                stringBuilder.append(s.substring(startIndex));
-                ans.add(stringBuilder.toString());
+                segments.removeLast();
             }
-            return;
-        }
-        for (int curPos = 1; curPos <= 3 && curPos <= remainingLength; curPos++){
-            dots.add(curPos);
-            if(valid(s, startIndex, curPos)){
-                helper(s, startIndex+curPos, dots, ans);
-            }
-            dots.remove(dots.size()-1);
         }
     }
 
-    private boolean valid(String s, int startIndex, int length) {
-        return length == 1 || (s.charAt(startIndex) != '0' && (length < 3
-        || s.substring(startIndex, startIndex+length).compareTo("255")<= 0));
+    private void updateSegments(int currDot) {
+        String segment = str.substring(currDot+1, n);
+        if(valid(segment)){
+            segments.add(segment);
+
+            String ip = String.join(".",segments);
+            result.add(ip);
+            segments.removeLast();
+        }
     }
+
+    private boolean valid(String segment) {
+        int m = segment.length();
+        if (m > 3) {
+            return false;
+        }
+        return (segment.charAt(0) != '0') ? (Integer.valueOf(segment) <= 255) : (m == 1);
+    }
+
 
     public static void main(String[] args) {
         RestoreIPAddresses ipAddresses = new RestoreIPAddresses();

@@ -1,23 +1,32 @@
 package leetcode._871;
 
+import java.util.Comparator;
+import java.util.PriorityQueue;
+
 public class MinimumNumberOfRefuelingStops {
     public int minRefuelStops(int target, int startFuel, int[][] stations) {
-        int N = stations.length;
-        long[] dp = new long[N+1];
-        dp[0]  = startFuel;
-        for (int i = 0; i < N; i++) {
-            for (int t = i; t >= 0; t--) {
-                if(dp[t] >= stations[i][0]){
-                    dp[t+1] = Math.max(dp[t+1], dp[t]+(long)stations[i][1]);
-                }
+        if(startFuel >= target){
+            return 0;
+        }
+        PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Comparator.reverseOrder());
+
+        int i = 0;
+        int n = stations.length;
+        int stops = 0;
+        int maxDistance = startFuel;
+        while (maxDistance < target){
+            if(i < n && stations[i][0] <= maxDistance){
+                maxHeap.offer(stations[i][1]);
+                i++;
+            } else if (maxHeap.isEmpty()) {
+                return -1;
+            }else {
+                maxDistance += maxHeap.poll();
+                stops++;
             }
         }
-        for(int i = 0; i<=N; i++){
-             if(dp[i] >= target){
-                 return i;
-             }
-        }
-        return -1;
+        return stops;
+
     }
 
     public static void main(String[] args) {

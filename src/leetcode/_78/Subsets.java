@@ -5,19 +5,19 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Subsets {
+    private List<List<Integer>> ans = new ArrayList<>();
+
     public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> answers = new ArrayList<>();
-        Arrays.sort(nums);
-        backtrack(answers, new ArrayList<>(), nums, 0);
-        return answers;
+        backtrack(0, new ArrayList<>(), nums);
+        return ans;
     }
 
-    private void backtrack(List<List<Integer>> answers, ArrayList<Integer> tempList, int[] nums, int start) {
-        answers.add(new ArrayList<>(tempList));
+    private void backtrack(int start, List<Integer>temp, int[] nums) {
+        ans.add(new ArrayList<>(temp));
         for (int i = start; i < nums.length; i++) {
-            tempList.add(nums[i]);
-            backtrack(answers, tempList, nums, i+1);
-            tempList.remove(tempList.size()-1);
+            temp.add(nums[i]);
+            backtrack(i+1, temp, nums);
+            temp.remove(temp.size()-1);
         }
     }
 
